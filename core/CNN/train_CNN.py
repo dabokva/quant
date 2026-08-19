@@ -82,12 +82,14 @@ overfit_dataset = (
 input_shape = train_dataset.element_spec[0].shape[1:]
 CNN = CNN_Predecoder()
 CNN(tf.zeros(shape=(1, *input_shape), dtype=tf.float32))
-
 CNN.compile(
     optimizer = optimizers.Adam(learning_rate=1e-3,),
     loss = losses.BinaryCrossentropy(),
     metrics = [metrics.BinaryAccuracy(name='accuracy')]
 )
+print(CNN.summary())
+
+
 
 early_stopping = callbacks.EarlyStopping(
     monitor='val_loss',
@@ -96,6 +98,12 @@ early_stopping = callbacks.EarlyStopping(
     min_delta=1e-5,
     restore_best_weights=True,
     verbose=1,
+)
+checkpoint = tf.keras.callbacks.ModelCheckpoint(
+    './core/CNN/CNN_Predecoder.keras',
+    monitor="val_loss",
+    save_best_only=True,
+    mode="min"
 )
 terminate_on_nan = (callbacks.TerminateOnNaN())
 
@@ -106,9 +114,12 @@ history = CNN.fit(
     callbacks=[
         early_stopping,
         terminate_on_nan,
+        checkpoint
     ],
     verbose=1,
 )
+
+CNN.save('./core/CNN/saved_models/CNN_Predecoder.keras')
 
 test_results = CNN.evaluate(
     test_dataset,
