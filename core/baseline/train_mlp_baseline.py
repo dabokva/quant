@@ -5,16 +5,13 @@ import time
 import numpy as np
 import tensorflow as tf
 
-from scripts.data_loader import make_dataset
-from scripts.baseline.mlp_baseline import make_mlp
+from core.data_loader import make_dataset
+from core.baseline.mlp_baseline import make_mlp
 
 
-data_path = Path('/Users/andreidolmatov/Desktop/Studies/6th Semester/Thesis/thesis_vscode/data/sycamore_surface_code_d3_d5/sample_00/d5_at_q6_5/X/r25')
+data_path = Path('./data/sycamore_surface_code_d3_d5/sample_00/d5_at_q6_5/X/r25')
 
-model_dir = Path(
-    '/Users/andreidolmatov/Desktop/Studies/6th Semester/Thesis/'
-    'thesis_vscode/scripts/baseline'
-)
+model_dir = Path('./scripts/baseline')
 
 batch_size = 512
 validation_fraction = 0.2
