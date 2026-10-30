@@ -1,0 +1,13 @@
+run,fallback,coverage,accepted_shots,accepted_error,accepted_upper,target_error,threshold,hybrid_error
+fresh/batch_64/baseline,none,0.0,0,,,0.01,,
+fresh/batch_64/pruned64,none,0.0,0,,,0.01,,
+fresh/batch_64/mixed64,none,0.0,0,,,0.01,,
+fresh/batch_128/baseline,none,0.0,0,,,0.01,,
+fresh/batch_128/pruned64,none,0.0,0,,,0.01,,
+fresh/batch_128/mixed64,none,0.0,0,,,0.01,,
+fixed/batch_64/baseline,none,0.0,0,,,0.01,,
+fixed/batch_64/pruned64,none,0.0,0,,,0.01,,
+fixed/batch_64/mixed64,none,0.0,0,,,0.01,,
+fixed/batch_128/baseline,none,0.0,0,,,0.01,,
+fixed/batch_128/pruned64,none,0.0,0,,,0.01,,
+fixed/batch_128/mixed64,none,0.0,0,,,0.01,,

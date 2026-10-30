@@ -1,0 +1,13 @@
+run,precision,parameters,parameter_bytes,resident_parameter_bytes,export_file_bytes,hidden_units,dense_units,dense2_units
+fresh/batch_64/baseline,float32,75266,301064,301064,281566,96,128,64
+fresh/batch_64/pruned64,float32,28290,113160,113160,108695,64,64,32
+fresh/batch_64/mixed64,mixed_float16,28290,57928,113160,57081,64,64,32
+fresh/batch_128/baseline,float32,75266,301064,301064,281360,96,128,64
+fresh/batch_128/pruned64,float32,28290,113160,113160,108632,64,64,32
+fresh/batch_128/mixed64,mixed_float16,28290,57928,113160,56992,64,64,32
+fixed/batch_64/baseline,float32,75266,301064,301064,281442,96,128,64
+fixed/batch_64/pruned64,float32,28290,113160,113160,108648,64,64,32
+fixed/batch_64/mixed64,mixed_float16,28290,57928,113160,57085,64,64,32
+fixed/batch_128/baseline,float32,75266,301064,301064,281316,96,128,64
+fixed/batch_128/pruned64,float32,28290,113160,113160,108634,64,64,32
+fixed/batch_128/mixed64,mixed_float16,28290,57928,113160,56977,64,64,32

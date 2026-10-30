@@ -1,0 +1,1799 @@
+{
+  "data_path": "/work/data",
+  "data_root": "/work/data",
+  "collection": {
+    "schema_version": 1,
+    "configuration": "d5_at_q6_5/X/r25",
+    "sample_count": 53,
+    "total_shots": 3975000,
+    "ordering": "numeric sample suffix, then original b8 row",
+    "samples": [
+      {
+        "name": "sample_00",
+        "relative_path": "sample_00/d5_at_q6_5/X/r25",
+        "offset": 0,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "b430cdeccf8826c4484cd08a5d02caf4f8f5ce6fa9cbedbbc0ae273f3cf9a2de",
+          "obs_flips_actual.b8": "c4abdaf3c5e1f632f037ba7854e206997a78237fdc901d5fe3398e045bcfa258",
+          "dems/correlations.dem": "d18d24721f492b44ec3c5fa6eef8f9cef4540a2e17664bd5983185c8ba666f06"
+        },
+        "graph_file": "graphs/sample_00.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "04d5c1b22bae7f3fd218b64cb7666cec2ef77dc603ba82224fc7545b10a16d90"
+      },
+      {
+        "name": "sample_01",
+        "relative_path": "sample_01/d5_at_q6_5/X/r25",
+        "offset": 75000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "a8db5288a2048e4b03b08ed4cb25231784b2c1a05938a35816f96007f94c951c",
+          "obs_flips_actual.b8": "5de2ba7291ff01b62b82280818f0c582dd8a6eb23744ca36c3f2deede6b1c978",
+          "dems/correlations.dem": "9c78ae64e367be9fb1744de7303706462505ea2512cf428cf4cb8f916c0c397f"
+        },
+        "graph_file": "graphs/sample_01.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "dace8e9dabfe80f19c0f3a446f62d3266acae72277828db7fdca868b28d22ff8"
+      },
+      {
+        "name": "sample_02",
+        "relative_path": "sample_02/d5_at_q6_5/X/r25",
+        "offset": 150000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "701f620a85be76b82e6ef7c3854d8f74747f35edb5e1c23481674e698305d502",
+          "obs_flips_actual.b8": "5a6242df5681edbfac1b83206995dcca44c2197228ed0b5a874e4cebce06cbd4",
+          "dems/correlations.dem": "33ac8a3a3253030f5ff04be1d291337999ffe2e2960cde42c13da1409cde7293"
+        },
+        "graph_file": "graphs/sample_02.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "69ea415315a57a97eb589637d91684d20a8b26c7912e6c24bf2d9cec4f217018"
+      },
+      {
+        "name": "sample_03",
+        "relative_path": "sample_03/d5_at_q6_5/X/r25",
+        "offset": 225000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "82d8eb2b2bd5c9110bb38e415f15fbbe1b31a825c9d315385c393761f9953af8",
+          "obs_flips_actual.b8": "036f9febd326fcf69795e9f8d49f86dca495899d75d4d8cc3a91f10c5785eb10",
+          "dems/correlations.dem": "f13636f4fd3e01f8b65b54e5b7080bf7dee014c85cc534c3eeb1ed2402ec237a"
+        },
+        "graph_file": "graphs/sample_03.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "fb8499010280cb4e9acf2d773d2b29a0a7da3f5cdb420ae761ae0fe76a9ebca2"
+      },
+      {
+        "name": "sample_04",
+        "relative_path": "sample_04/d5_at_q6_5/X/r25",
+        "offset": 300000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "b23100adba61344f96b681a7988caff9efdc81a602ca273d215148271bea6564",
+          "obs_flips_actual.b8": "3cdcdb2597ba4df06022ba86d20f91253a09e15fc1f1f0e32850c6be9dec3dc3",
+          "dems/correlations.dem": "4284a877d5eb56153974a65fe934d16cbc4063f65b6cb1086e81fbff8aa4b1ac"
+        },
+        "graph_file": "graphs/sample_04.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "163110bac13ddbd5d3dad6ad50a489115cd2cb3b236f4cdf2e55c6fa3762e509"
+      },
+      {
+        "name": "sample_05",
+        "relative_path": "sample_05/d5_at_q6_5/X/r25",
+        "offset": 375000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "78d443e901b3f65e1e0617b15f8f08737e9594362dcd36738b455ea1aca6b35d",
+          "obs_flips_actual.b8": "77e045f5976801b6c5318e3378c0aa5b2525770c35b676857fe0501559e7c43a",
+          "dems/correlations.dem": "153c646b7de581e1e3ecad8892211d9fe91078635cb9d860e6e14ffff9336764"
+        },
+        "graph_file": "graphs/sample_05.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "7dba8fe3ccce9b33d1b18550cd101599f62b179ef4a16ad477be35e720118761"
+      },
+      {
+        "name": "sample_06",
+        "relative_path": "sample_06/d5_at_q6_5/X/r25",
+        "offset": 450000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "c986e5d5d6c9b7fdbe1f74df7ac06938d1f411c6b3d33977bc53dab8ada4caff",
+          "obs_flips_actual.b8": "718765ce204395a39beee6f0844396f46d76cf505fd81bfd4fabae0c90e69a9b",
+          "dems/correlations.dem": "ff5efc880d928f8d5ec17b7a0216fae00d17923b971d4e928fa390cf3b034d76"
+        },
+        "graph_file": "graphs/sample_06.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "714878b06bce53dc45056a88396461d9ddc268f3cf066338a5669c458e365d06"
+      },
+      {
+        "name": "sample_07",
+        "relative_path": "sample_07/d5_at_q6_5/X/r25",
+        "offset": 525000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "92b3a9742e0131d8eb18ec8a00b1cc64e8ebc43f20cbe58b9526b30284963eb2",
+          "obs_flips_actual.b8": "328d4fd78bb4d60e0a92a9239d2ad81443d15e4a9aa81373af7c4b9133708b93",
+          "dems/correlations.dem": "48cf12e358b73016dcf3d964d76e1dda844f14833105fc288af45bb3408bb715"
+        },
+        "graph_file": "graphs/sample_07.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "1a59dee68a8d415951c9669a20f82a229688e671dd9de963668a9aa34ced72ee"
+      },
+      {
+        "name": "sample_08",
+        "relative_path": "sample_08/d5_at_q6_5/X/r25",
+        "offset": 600000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "f61fb03b294c8eaf092df8f3eeb48d6ea0ae25146e4addeeb9e72e6f12b8713e",
+          "obs_flips_actual.b8": "f4d2ff7d0c4cab5947e0eb003debb5097b5e4febd099d7e967da5e8e7a225a2b",
+          "dems/correlations.dem": "1a3c6dff44041530d4cb7118c0c51c01bddc4f23dfb27738d163fe210fae367c"
+        },
+        "graph_file": "graphs/sample_08.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "719b6d47072697fae6f3305a891b42ec9056b80e51e8b4877da8f497024431bf"
+      },
+      {
+        "name": "sample_09",
+        "relative_path": "sample_09/d5_at_q6_5/X/r25",
+        "offset": 675000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "40a3f33e65914f8c398cd98d9f573a442404d2a40fbec562616fcf17ecc60d36",
+          "obs_flips_actual.b8": "a102b2611d341a86939c641d015a9333688d9139b4fba803d1f8d8a48aa563e2",
+          "dems/correlations.dem": "ecf49e3bf2e9f0872be380dd6e0aaa2f37040f9be7f6e920ab77dd4c1b82051a"
+        },
+        "graph_file": "graphs/sample_09.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "0bdd2b2560afac08910e1ef595aad0e007bd68889bd8612e7cbb439039a9bc4d"
+      },
+      {
+        "name": "sample_10",
+        "relative_path": "sample_10/d5_at_q6_5/X/r25",
+        "offset": 750000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "8371164e7e3625c5d2a804155be657a88a9b05e6a37e1ed4bc22ba5bf8655699",
+          "obs_flips_actual.b8": "e50aedb698756988d86c73e52756cbbacfd7682b5c48cab56f75d539d49aa3d5",
+          "dems/correlations.dem": "9797b6865027280d86253e24bf9b190a38c94d22d4a227559e5629956801002a"
+        },
+        "graph_file": "graphs/sample_10.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "77f77fe9e2c4f2cf114418257ab83749b72c145d9c7347d15db5e1a28601b541"
+      },
+      {
+        "name": "sample_11",
+        "relative_path": "sample_11/d5_at_q6_5/X/r25",
+        "offset": 825000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "b408d51700bda9e8a10434ba1c37d70ac2db68e87717add5709468a8a2051ae2",
+          "obs_flips_actual.b8": "4bd05ac9e99481e8dfdf4c0a9cf7772073a8a7d611f5a810bed894c3117d9d9f",
+          "dems/correlations.dem": "eead0c035f3ac025f120cdf98c530ba3f7e07cff2290d24c3127a0f350724c98"
+        },
+        "graph_file": "graphs/sample_11.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "626a0f0d9529f25429525715e8bb41401e0cf8c1df57d4977622c8257092d947"
+      },
+      {
+        "name": "sample_12",
+        "relative_path": "sample_12/d5_at_q6_5/X/r25",
+        "offset": 900000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "257059c7674ac1d976b18a329a77f484e5a22cd2a85c2e1209a0ffa12fc6c95c",
+          "obs_flips_actual.b8": "8adebd440bcc7b6116c5fc83ee6b2f522f92bfd706f81ea2c4e3679a4bb396ee",
+          "dems/correlations.dem": "7185dc9080580b02e0a27235c636144233c5286d01d40f0030ab4b89d278e8cf"
+        },
+        "graph_file": "graphs/sample_12.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "e26249dca135c0bf800903d5a2b40b6cfe128e36ee46ddbe9850b61b56faa89b"
+      },
+      {
+        "name": "sample_13",
+        "relative_path": "sample_13/d5_at_q6_5/X/r25",
+        "offset": 975000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "0d094bdf9b76b632bed023fe61302674649a7288f69d9b02ec8228170db8eef7",
+          "obs_flips_actual.b8": "712843d6208bf7f4506d2bae160dfc466715c28071b12a1e6c5e93c49b5c0bb9",
+          "dems/correlations.dem": "9af865625944cd3556181ae1d9895c8d5e910d3414a802f372caddbe5cefeb2c"
+        },
+        "graph_file": "graphs/sample_13.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "3202280cae2c4287566f856a4a996646415a9670c7c6573ce6dd7423ba450e11"
+      },
+      {
+        "name": "sample_14",
+        "relative_path": "sample_14/d5_at_q6_5/X/r25",
+        "offset": 1050000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "80d92fed606b0aec2fce0334cba3adddd4301511d69966eea61ff14b5cfa9f7a",
+          "obs_flips_actual.b8": "7e60b2fbe62962bc591bedf8d6dc7a5ded0221cbe70fcf573ac04b0a8a312c31",
+          "dems/correlations.dem": "fe3930d81a8f17383dd17be9547a43fa70f6ab0e72ba79e55d94fd3e491d5da9"
+        },
+        "graph_file": "graphs/sample_14.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "8cb702e4bab98b8e3d8a18fd5377e840f71e2b7006bd06afce5b454e83c45fd0"
+      },
+      {
+        "name": "sample_15",
+        "relative_path": "sample_15/d5_at_q6_5/X/r25",
+        "offset": 1125000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "1b6353a1c6fa46f44f479add3988c731adacea575cc5573072fbe238e10242cf",
+          "obs_flips_actual.b8": "3d81b0d8992dc30fbf9070033fcbf42209d1ce1c751ce3211d17daf804b61cf5",
+          "dems/correlations.dem": "8150e8a148eaa85674656ec445bdaaad3227da8e90be816008c8069c22d5c547"
+        },
+        "graph_file": "graphs/sample_15.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "df3572f5cbb5bd7456eaf3a615a81f56d83bff7c1073ee61cb5c65a210f76d60"
+      },
+      {
+        "name": "sample_16",
+        "relative_path": "sample_16/d5_at_q6_5/X/r25",
+        "offset": 1200000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "e6fb0e23b047152af8b915c03d3c60491d5665a01718d1ba734d7c04310ce3b0",
+          "obs_flips_actual.b8": "b09989c6c4662c41ed069b29934080422ed692023d7c0c9fca0b87bf65121eb5",
+          "dems/correlations.dem": "7a9d80d13eed6701248e38dac49982198692f78b949825156038bb26b74e420c"
+        },
+        "graph_file": "graphs/sample_16.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "71b5ed45211f9177d8e2419288eb21b5b975edad3baafaf6e3c6ef6af4cbfbaa"
+      },
+      {
+        "name": "sample_17",
+        "relative_path": "sample_17/d5_at_q6_5/X/r25",
+        "offset": 1275000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "ff7a4cf9d9a55f241cace2ce93641164f34af1a7cb09158471c50024930e73bc",
+          "obs_flips_actual.b8": "22177ec70023239edb70563f72e279a95cf46c5823ced9bb2509c92156ef93c2",
+          "dems/correlations.dem": "8d417f2b154dbe2895966f31b3a65a7d4cb332c30c8205154ef88be85148e5f4"
+        },
+        "graph_file": "graphs/sample_17.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "ca2307f89112b3b7430f5dc2e0b1f52ccbe480cb43bdda4da58d76d4c807ebed"
+      },
+      {
+        "name": "sample_18",
+        "relative_path": "sample_18/d5_at_q6_5/X/r25",
+        "offset": 1350000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "9a4a2b7770628a30e0577716518ddfd502e00c0becfaf7ab9428ba116fa6c4ec",
+          "obs_flips_actual.b8": "17c8d36323d0ae29d1042c00f62070a084b8dfdc46e280d40a4e3d387e484237",
+          "dems/correlations.dem": "b382dbdedae78c8d85509f90279e191f37a6f5e045e919a12d9622cfeae30171"
+        },
+        "graph_file": "graphs/sample_18.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "940d3599069a0a7536f174dca2c8f9409896ae78044d9c679766180600ff8861"
+      },
+      {
+        "name": "sample_19",
+        "relative_path": "sample_19/d5_at_q6_5/X/r25",
+        "offset": 1425000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "bb4c2e5ff39ab979258d345f5fa946727959d8981edd126a2bd9503f31b0649f",
+          "obs_flips_actual.b8": "cacef9847fca036ec5aaac3dbaa599a9119822f53ba431e92d25f9c9f6aeaa59",
+          "dems/correlations.dem": "7d2da85a2db7d8385a96b42ea9b2a9c7c07248a234d0957c0432cfcefb3d51ea"
+        },
+        "graph_file": "graphs/sample_19.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "76d7d78d0a338cec845300ebc71c35c82de4356fc8f514763bbff7c1da6b00ad"
+      },
+      {
+        "name": "sample_20",
+        "relative_path": "sample_20/d5_at_q6_5/X/r25",
+        "offset": 1500000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "57875871e57d25cafb4bf325e5b22a9e9767ece0daa6219550646d46a69244ca",
+          "obs_flips_actual.b8": "4617e9b11573da0c84994d0de86572bd939cd315c12498a6ef7157700aede65f",
+          "dems/correlations.dem": "72a24058a24a366916aedd99360bc2e7dc26fdcb1e6d51e1e5f657dc882edeb4"
+        },
+        "graph_file": "graphs/sample_20.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "4bb80903807a10b530f441b014db2caf0b425cc63ed50d25e01c2d0d53ec8a3c"
+      },
+      {
+        "name": "sample_21",
+        "relative_path": "sample_21/d5_at_q6_5/X/r25",
+        "offset": 1575000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "333b9cdaa29ff928343e14f71d8f86db9655bb16a391598827a1519b551b84b3",
+          "obs_flips_actual.b8": "f64ddd69c3dee9b2f1d802d0bd96a6cb41c51a30ddd8c1c49669cdb04668fadb",
+          "dems/correlations.dem": "94726698a6b37d71bb9d2680caea23e7a79e85b34edd7a30a21aa9418d7037cb"
+        },
+        "graph_file": "graphs/sample_21.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "7c222fb3919eec943067d321b6150be31dfcf783d4327ea304c9a488b9c24c77"
+      },
+      {
+        "name": "sample_22",
+        "relative_path": "sample_22/d5_at_q6_5/X/r25",
+        "offset": 1650000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "feabeb9a8220a300547c6e738969a29c83c1ed6a73167316dd4696443b660677",
+          "obs_flips_actual.b8": "8dfd7ac8ac9d617f84f5dfdec88e050904d529083ad0a7d8c7bdc55e8ac9f7ff",
+          "dems/correlations.dem": "6c26884579c73bb70fc616556f57d6d07d63b48ff51476aa39915f0831a2ab37"
+        },
+        "graph_file": "graphs/sample_22.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "deead8318f4d62319842018e4a398b02752c78e7875c0e11d93d44ed6358d2b2"
+      },
+      {
+        "name": "sample_23",
+        "relative_path": "sample_23/d5_at_q6_5/X/r25",
+        "offset": 1725000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "059aad5ad7ec36e575e47717bd1ec1bf2bbf8756db596f7a9e0fc86cd85dedde",
+          "obs_flips_actual.b8": "0c88d549faabb94c58a32651edad800bd7b9b19a0f529e806a6df77a88c0fc94",
+          "dems/correlations.dem": "7cb6ca57725090a9f9e2f645d9238817ac8dc60696161013cadb220f5be44f39"
+        },
+        "graph_file": "graphs/sample_23.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "e26894a69aec29c7686248ca3193ab5afddaf48c500b6e9e48ced68e230b07dc"
+      },
+      {
+        "name": "sample_24",
+        "relative_path": "sample_24/d5_at_q6_5/X/r25",
+        "offset": 1800000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "3fbd59f7570707df1aa1796c49860e41e85787395fc44eb06e2394eff120047a",
+          "obs_flips_actual.b8": "cce73e0ddcfc7329109124fd02d3056e46427f4cb2519f611243efa238e83802",
+          "dems/correlations.dem": "d7829374c8b1bd048e60727481c9f1d2abbc071f01e867ae0c4287cec884ba96"
+        },
+        "graph_file": "graphs/sample_24.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "b374ec94ade6bcd6bc9f4b05c93f3450a71188056d77826817e94a387d16a5c4"
+      },
+      {
+        "name": "sample_25",
+        "relative_path": "sample_25/d5_at_q6_5/X/r25",
+        "offset": 1875000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "4ae9482100b404bf221415596b875b0627fcfcc5ece57caa0c2f5ecabef57184",
+          "obs_flips_actual.b8": "8f62723c70be22f91a21447e8f103429fdc3b805a6904394ab51e5453e7f02bf",
+          "dems/correlations.dem": "465dac7e766d2b49a60f6894012aedeeb365e80f51d3ae941b277056f0609222"
+        },
+        "graph_file": "graphs/sample_25.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "c0fedab0b25a644c4dd5051d48d7281c99e1e09f461a3ebd39fc1a0648b471e9"
+      },
+      {
+        "name": "sample_26",
+        "relative_path": "sample_26/d5_at_q6_5/X/r25",
+        "offset": 1950000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "7eb26b191a96b2f8b48177825621d0ac17bf5957cecb82a9c74148bd86ca7cdd",
+          "obs_flips_actual.b8": "9151f3f612f2380290e5365c51dfe557732d15160ada7b5fa3c7c08bd4f3a866",
+          "dems/correlations.dem": "69fdc9555c61d3656ad20edff714de2c681053fd7bc306896af69e2ba4342b94"
+        },
+        "graph_file": "graphs/sample_26.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "6144e797257b03297542b55f565c9176f5c85a6f03a245cc3c9a2a554dd3e6f2"
+      },
+      {
+        "name": "sample_27",
+        "relative_path": "sample_27/d5_at_q6_5/X/r25",
+        "offset": 2025000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "372206384f393ff588b9cea38c91de0babcf3145d84020e47749944efec27e18",
+          "obs_flips_actual.b8": "68370934bdabbfa8f7e9dcc11a4973a2f05769eda6c7573c384f49e16526a657",
+          "dems/correlations.dem": "41b10d0a840c9bde255e6d108531acdb9c9245b8d682dc7137cd3f0087c59259"
+        },
+        "graph_file": "graphs/sample_27.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "061cca81028bf641246be3f49215822bb55652fe39b685348800967016e39df3"
+      },
+      {
+        "name": "sample_28",
+        "relative_path": "sample_28/d5_at_q6_5/X/r25",
+        "offset": 2100000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "dc2bd5b58926447f8b200c45793b1f9eeebf88ae4813b5fa722ae9896c73e7c2",
+          "obs_flips_actual.b8": "9c6ee3ac58f51aed3f05fc2a2aca7d8de8ae9a2ea609d13f9e895116b32b63be",
+          "dems/correlations.dem": "5a25b430b6d1a6d1c137c476dfac21e9eacfbdf7b93f55da7266784171ac21d6"
+        },
+        "graph_file": "graphs/sample_28.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "3920527e1d4669cb18483c12c80970bfcb88fa317cf1afee72a663f55c48010a"
+      },
+      {
+        "name": "sample_29",
+        "relative_path": "sample_29/d5_at_q6_5/X/r25",
+        "offset": 2175000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "582989042882c917d065ec9556a0ac106cc34b9f757f84824445dd7cb749dba8",
+          "obs_flips_actual.b8": "44e09f36bda1a92e61c80c84af3cb3e86408cd865367263df9a64e42d9d97ec5",
+          "dems/correlations.dem": "d64b0ef0b2853004b54e4aa679cd403767b63c0d8862a436d2fd794d78e9ea50"
+        },
+        "graph_file": "graphs/sample_29.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "0bce52ebe9f6e9968277051fa1bae8f40f9062e7dbe6f40b55e238ef8180b8ee"
+      },
+      {
+        "name": "sample_30",
+        "relative_path": "sample_30/d5_at_q6_5/X/r25",
+        "offset": 2250000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "28353e07f12f786ab43ae171a620ac4b0a2e4c8f0921694077e492da37ea527f",
+          "obs_flips_actual.b8": "42a45b08254f671b9aca86a58c5cc7d669b7e5d1d48d4458965b6a2ccfd070c0",
+          "dems/correlations.dem": "65f9fc2d4d3899c841a5f59710d6b59b1a88157d54d88ba688989b8548ea45e0"
+        },
+        "graph_file": "graphs/sample_30.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "e19a04f84523f106e353b574530ede84b24f86fa01b36b1a3eb88cc60f3fdc41"
+      },
+      {
+        "name": "sample_31",
+        "relative_path": "sample_31/d5_at_q6_5/X/r25",
+        "offset": 2325000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "540d572b583e540fcd7e990c5bc9b37073270643f618c02382ecf7e758676327",
+          "obs_flips_actual.b8": "5c0e717088bf356ca198dfed3557b08b27797cb392719ce151c66227cb30c6c5",
+          "dems/correlations.dem": "4e3d0c16336f95d8b47c18061391b2b14561aa3ee4849ea2bbe6bd61532aa1f8"
+        },
+        "graph_file": "graphs/sample_31.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "3226e9fde23c1a3752d233dd68055d71680248bb5a8078f1f73609f5033adbff"
+      },
+      {
+        "name": "sample_32",
+        "relative_path": "sample_32/d5_at_q6_5/X/r25",
+        "offset": 2400000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "7b418a83ec3717dc523937d6170cfce0fd485b651e3df3c234c3c6ab66c18ab2",
+          "obs_flips_actual.b8": "98d2e19fe23406802c76d0ca9c5604b302132f2df85b8c577b9c74f737256690",
+          "dems/correlations.dem": "9fe1fd10795995b7b91a9475f210e399e3b14e7f5b180176f0b967597f4c9051"
+        },
+        "graph_file": "graphs/sample_32.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "dafb38ea8e1cd6c0fb5651720feeb781957155af6296a19f7316cb072b7e14bc"
+      },
+      {
+        "name": "sample_33",
+        "relative_path": "sample_33/d5_at_q6_5/X/r25",
+        "offset": 2475000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "dda598fdcb1c43551b378208d4eced4e30bae05731dce020fcbc44419123f330",
+          "obs_flips_actual.b8": "e4d100fb3b3afcaf1a2162a5085ec5d6c524a1579f305406869333314cc74f35",
+          "dems/correlations.dem": "0a83911534583c0c7152e262a4ec1fe22ebe50dac6b628d91a03a5ad1a901f24"
+        },
+        "graph_file": "graphs/sample_33.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "14d0ba9d4cb6a416280b008bac728c25a24e5024ee39bb25ade51528956d762b"
+      },
+      {
+        "name": "sample_34",
+        "relative_path": "sample_34/d5_at_q6_5/X/r25",
+        "offset": 2550000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "dcadc630d5fca7f9a653347408780fcebbf78d7ca1679aa90b16e4e1e4ba71e8",
+          "obs_flips_actual.b8": "037db1961c7369ab45a15548ac7e9492d55950ec78ac53f26d0fc04ecf7e24bb",
+          "dems/correlations.dem": "ac847393d5758e5b1fa7d396f915faecda04e2be19ee5fd7f82c696ea1cc5caf"
+        },
+        "graph_file": "graphs/sample_34.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "2a289dc8effaf2cabe321a5192a191a0ef8ac88316dd08dd9e7be2ed6c4a02c3"
+      },
+      {
+        "name": "sample_35",
+        "relative_path": "sample_35/d5_at_q6_5/X/r25",
+        "offset": 2625000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "4d6af35e6ff7c55ccd29bbcc9fb329abb46543d8b4f44057e87d6f9e22ca2993",
+          "obs_flips_actual.b8": "59262e6f6fc810a918126ad972389fb50b4a85dc5d36a426fd0726a05f863cc9",
+          "dems/correlations.dem": "4cefa81aa0fb6393c97b0902cf00a1b60181e857b23367594dafb1c68fd87128"
+        },
+        "graph_file": "graphs/sample_35.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "b724c62f403fe1aade3597489c827f23906066fc4b30b2fae4169a1d6ef25d01"
+      },
+      {
+        "name": "sample_36",
+        "relative_path": "sample_36/d5_at_q6_5/X/r25",
+        "offset": 2700000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "181016c28eb931ac9656030792bf384e5deab6236024806c9d868fccd4875c38",
+          "obs_flips_actual.b8": "462789ed3f57d93335ec9173399406429015bbf9fde62b18a351bea810e316d6",
+          "dems/correlations.dem": "83b3cc29614a8575637d02777bec528f6fbff3a1b9dc646e31ba9470cc5e1482"
+        },
+        "graph_file": "graphs/sample_36.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "42af4294ad57bf5de945214736ecc05550d09f9582bc7398a2c483dd05ae251c"
+      },
+      {
+        "name": "sample_37",
+        "relative_path": "sample_37/d5_at_q6_5/X/r25",
+        "offset": 2775000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "b760c224e078a4601352a94a6ef40edefcb9f8ade0f76bc1afd802f2d357f9d2",
+          "obs_flips_actual.b8": "4f8ed7f348260a8b8fc34d640cc5ea5aedbb0cd008c77f7c503dc8a77e7376f8",
+          "dems/correlations.dem": "70587fb1d88f07c7f4732cafea414e7d4cbf83b5d6b09c16c983368347606e81"
+        },
+        "graph_file": "graphs/sample_37.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "aaf2171f8c7e4a41b39d88c9abf2e4e8ac84a8891c305b945eb9b4960f71dade"
+      },
+      {
+        "name": "sample_38",
+        "relative_path": "sample_38/d5_at_q6_5/X/r25",
+        "offset": 2850000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "63362d81c50db144bb441a039cf9d9f9225acf8f84a1cfba3d1b5fbc5d06147f",
+          "obs_flips_actual.b8": "7bbd7dfe9f4733a06026c2c1c7c9f096f22c5c891d0fcd7063c9c4ec6a5a6257",
+          "dems/correlations.dem": "4ab858df9fdac91c8ebcfea0aff3054bf7eb4bb44c86dc0fbba4a32a01bf00ed"
+        },
+        "graph_file": "graphs/sample_38.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "42d31e584bf459dfb647191a7ab99eb7545abc1ba9019f2c42e7fd8e23a00125"
+      },
+      {
+        "name": "sample_39",
+        "relative_path": "sample_39/d5_at_q6_5/X/r25",
+        "offset": 2925000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "42d3533bf37da5e90aaba9e27cde0c870e52c5a847fe419594bab47e1195d5f1",
+          "obs_flips_actual.b8": "e00f3f00dfbb04cd436d2252929f17a9da6d94112f2143f0064a3a84e5b6807f",
+          "dems/correlations.dem": "337546b81b07b448de1e071c660e48f62906070e9c9d64a9f5b4df4403ccb844"
+        },
+        "graph_file": "graphs/sample_39.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "59620cdb167781a88559ae3f9adc392dc379905af904408cf3baa4e1e7ceedc6"
+      },
+      {
+        "name": "sample_40",
+        "relative_path": "sample_40/d5_at_q6_5/X/r25",
+        "offset": 3000000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "a480e79087a83a4d7740a9e27edda6a0c1d9f6da97c176b5fc53a63d16d12a4c",
+          "obs_flips_actual.b8": "02b0490e755895ab76fea251162dddc5477881422b02236a978c4cbd24ee324d",
+          "dems/correlations.dem": "86e8e7954399dd117ba9f31d13aca3e9c7f306a5bbb8df3f92a2aa5db81fb29c"
+        },
+        "graph_file": "graphs/sample_40.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "2f058b1371a2017f5f49fcc1e5c0c1fbfb10ab40a7823510468fb1c2b7a32c51"
+      },
+      {
+        "name": "sample_41",
+        "relative_path": "sample_41/d5_at_q6_5/X/r25",
+        "offset": 3075000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "317d993684d5aac2ba6e89c1b4c718fae1da372f3b821d53d220fe2185487d39",
+          "obs_flips_actual.b8": "405af418de9ad2f620e64f54f589a7a0427208a2010d57648e2d7e4249603047",
+          "dems/correlations.dem": "9092da3073d7af829970bd6406244290e5c1a0d8076c51421f4be208a7c1661d"
+        },
+        "graph_file": "graphs/sample_41.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "ed22314304343e1fb1cdb03ac7c9191acbebedeb15033a2a41d1e172c7a4a2f9"
+      },
+      {
+        "name": "sample_42",
+        "relative_path": "sample_42/d5_at_q6_5/X/r25",
+        "offset": 3150000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "9e1337f7b70364be9fd4926cdbff4c7c4ea2d6c3e8c063539f9b2c87fcd7b485",
+          "obs_flips_actual.b8": "ae2c57108fffaf9720d53305c174b902517e1f49d71626e4eaa415f3f4f4d0e4",
+          "dems/correlations.dem": "a0a99ead0363bdc4e2e57ef8fd5210ff6f55572de86efae31e6f4365c2a2332a"
+        },
+        "graph_file": "graphs/sample_42.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "c2dfea2b92ed8ee202a9361e453e70bee8beee5aa7b0a07b3fa0697560e614cb"
+      },
+      {
+        "name": "sample_43",
+        "relative_path": "sample_43/d5_at_q6_5/X/r25",
+        "offset": 3225000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "483e43ce013335fa657770c79bdca2bd8b3db44918615730e0ba34b04ab4c45a",
+          "obs_flips_actual.b8": "8a14e9c8fe342bab6a7ebd05812ad9c8be4c552bac9d66aa506cb6441182a5d6",
+          "dems/correlations.dem": "975b6a06c04fbfc539088f9798148224d895ff14e1879cfe9173a14a3934f214"
+        },
+        "graph_file": "graphs/sample_43.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "035fa646870da73507db25c62f9f0296de7b3a9c088d7deaafffa9518d3d348a"
+      },
+      {
+        "name": "sample_44",
+        "relative_path": "sample_44/d5_at_q6_5/X/r25",
+        "offset": 3300000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "bc519469b06fdd21658b420e6f9c51cf30f0882773f1e092306f504e4a58e4a3",
+          "obs_flips_actual.b8": "30e8a66f8815107611a8333909fdf87ee55f4f237cce561d3857cda3ff1ac199",
+          "dems/correlations.dem": "505639392be8eb4bb74535647cf1988544c77468cc8b785de40a75e7435e4850"
+        },
+        "graph_file": "graphs/sample_44.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "bf2090dc1bcc9fcf97ccd4d159a6388a9c9a9a8bf70bfbcf4ac9b13e8561114a"
+      },
+      {
+        "name": "sample_45",
+        "relative_path": "sample_45/d5_at_q6_5/X/r25",
+        "offset": 3375000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "94389bb4a82797f572e7aab13d5abf4f79aa4932fbfc5c8d09d6eee982a2003e",
+          "obs_flips_actual.b8": "c6b385490aafc90e6ac1118bcb833c44ec0d6cf48b84c8c199f9fa717940e649",
+          "dems/correlations.dem": "280e4b5dad1efcd753ecdb79a6023f06308977e42c21bcb0fc2da3620d97bc33"
+        },
+        "graph_file": "graphs/sample_45.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "cbb64f0d5c25c45d296e5070387ded2532fa7cbc5df1d594d8e299e44a05ae61"
+      },
+      {
+        "name": "sample_46",
+        "relative_path": "sample_46/d5_at_q6_5/X/r25",
+        "offset": 3450000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "d0bccfd73e472dca3968fad5ad91d53f1a67faf9f6ca711c3794200a6ab830c0",
+          "obs_flips_actual.b8": "d20532c475fce03a352fc3d9e8895728678e6397df14084f08691c685516a05a",
+          "dems/correlations.dem": "5ede2233317eb26b05f7a4b001e00cda1c472e53a687a1a77f1ef43c7e237f87"
+        },
+        "graph_file": "graphs/sample_46.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "b8b84e5dc8cbe650fd04bbfecd39c7867625dde250bea33e39c0a1352565388c"
+      },
+      {
+        "name": "sample_47",
+        "relative_path": "sample_47/d5_at_q6_5/X/r25",
+        "offset": 3525000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "4fc630cc4ebb423f251e512431218ea78ed237f1efccaed3fbeca330c82708eb",
+          "obs_flips_actual.b8": "c337482fdca08066f4ba8f530b3ddc93e9992055d23aaa8157d6ca6e5702560a",
+          "dems/correlations.dem": "def6ecec17245f9459ba21c04f6144276c4ca3e734d3e0a45a6a7a7de4219b12"
+        },
+        "graph_file": "graphs/sample_47.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "88bdcd4447ea26a8a88634011c1b89d7e96e9931c92a36b4ac89ac64132c0433"
+      },
+      {
+        "name": "sample_48",
+        "relative_path": "sample_48/d5_at_q6_5/X/r25",
+        "offset": 3600000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "bc9d52d132231a8c9f985a02ce593df432e735791d702d3bffe9595507dd18b1",
+          "obs_flips_actual.b8": "b9efaf18f61acc5d6166b0ed78177bf0f5a3d1a5b35cce3aa649d01f772f1d45",
+          "dems/correlations.dem": "aaa4524b7f50d0ef2986dbed867d4440212186eef6a767c495d12679fa1641a1"
+        },
+        "graph_file": "graphs/sample_48.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "ec9620bd404f605ae38ee86e86e34cf6156f5d41ffd9ac0132100f390164e367"
+      },
+      {
+        "name": "sample_49",
+        "relative_path": "sample_49/d5_at_q6_5/X/r25",
+        "offset": 3675000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "c5b5d4acf9f1b138900ed5e3dc96e46ae830d1051df306c6bbbc078f38ac9a7e",
+          "obs_flips_actual.b8": "77dd656d56c744a36e4112650f2fba844e5629a2bb6b6545814edce7f352cb3b",
+          "dems/correlations.dem": "2e2a2c7c2f2528ac7f1833d715a99e3254e4d815dd829e4a7d31ba0246a5e049"
+        },
+        "graph_file": "graphs/sample_49.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "3b231ec7302360f75fc9b77027830030cf530fc9415491c79a99c57f01228bed"
+      },
+      {
+        "name": "sample_50",
+        "relative_path": "sample_50/d5_at_q6_5/X/r25",
+        "offset": 3750000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "03b49e7d18bbd2f6a928e72d38e68cb5c60a40229e16ff5668887d0ff7f75ada",
+          "obs_flips_actual.b8": "c06a2a90b8181072c5c2a24f6b6dc446c2374c2565b276486aa2fb350d68419c",
+          "dems/correlations.dem": "24c8551f66e8c2e8d1267c2bd9f56cb9c796b4c380d30a5ee00d9258818b80a2"
+        },
+        "graph_file": "graphs/sample_50.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "5333025356268190627714b82bd70ffd04a0f42b73d2baad8975a19125ef5503"
+      },
+      {
+        "name": "sample_51",
+        "relative_path": "sample_51/d5_at_q6_5/X/r25",
+        "offset": 3825000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "903dac8a3956568879b5da4589371f1898662bd6fd737774e71068106e259714",
+          "obs_flips_actual.b8": "658b6be7982a23901dca6c6a879b01c4201bc7115d93f5fce77444891f0553c2",
+          "dems/correlations.dem": "8f920caee551058425af0bb1ac9f944949554199c7e93ed70da1b68ee4ee8835"
+        },
+        "graph_file": "graphs/sample_51.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "9a50c98124ddf47555a108b89f12365eb9a9d00fa00ce70bafeedc7407681f87"
+      },
+      {
+        "name": "sample_52",
+        "relative_path": "sample_52/d5_at_q6_5/X/r25",
+        "offset": 3900000,
+        "shots": 75000,
+        "number_of_detectors": 648,
+        "sha256": {
+          "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+          "detection_events.b8": "a040f075508eeb4475b101ff3523d84334f54ec560e46c525b4bda8af7509bcb",
+          "obs_flips_actual.b8": "3d5c4a4d422b3f99c1d89bcd3a0e9984c7c9ce19574d0f4774b44f7921172cf6",
+          "dems/correlations.dem": "2725a6ca8a2f4854ee1f626099547e43edcda5593e9d3d81d4b59338e4370bfd"
+        },
+        "graph_file": "graphs/sample_52.npz",
+        "number_of_nodes": 11303,
+        "number_of_errors": 10655,
+        "number_of_edges": 77287,
+        "number_of_incidences": 32992,
+        "graph_sha256": "2337cccb7f04b9260bd12b6bf12c31bb1343bb3d9d924b04e1f29368ce6cfc4e"
+      }
+    ]
+  },
+  "dataset_sha256": {
+    "sample_00": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "b430cdeccf8826c4484cd08a5d02caf4f8f5ce6fa9cbedbbc0ae273f3cf9a2de",
+      "obs_flips_actual.b8": "c4abdaf3c5e1f632f037ba7854e206997a78237fdc901d5fe3398e045bcfa258"
+    },
+    "sample_01": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "a8db5288a2048e4b03b08ed4cb25231784b2c1a05938a35816f96007f94c951c",
+      "obs_flips_actual.b8": "5de2ba7291ff01b62b82280818f0c582dd8a6eb23744ca36c3f2deede6b1c978"
+    },
+    "sample_02": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "701f620a85be76b82e6ef7c3854d8f74747f35edb5e1c23481674e698305d502",
+      "obs_flips_actual.b8": "5a6242df5681edbfac1b83206995dcca44c2197228ed0b5a874e4cebce06cbd4"
+    },
+    "sample_03": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "82d8eb2b2bd5c9110bb38e415f15fbbe1b31a825c9d315385c393761f9953af8",
+      "obs_flips_actual.b8": "036f9febd326fcf69795e9f8d49f86dca495899d75d4d8cc3a91f10c5785eb10"
+    },
+    "sample_04": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "b23100adba61344f96b681a7988caff9efdc81a602ca273d215148271bea6564",
+      "obs_flips_actual.b8": "3cdcdb2597ba4df06022ba86d20f91253a09e15fc1f1f0e32850c6be9dec3dc3"
+    },
+    "sample_05": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "78d443e901b3f65e1e0617b15f8f08737e9594362dcd36738b455ea1aca6b35d",
+      "obs_flips_actual.b8": "77e045f5976801b6c5318e3378c0aa5b2525770c35b676857fe0501559e7c43a"
+    },
+    "sample_06": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "c986e5d5d6c9b7fdbe1f74df7ac06938d1f411c6b3d33977bc53dab8ada4caff",
+      "obs_flips_actual.b8": "718765ce204395a39beee6f0844396f46d76cf505fd81bfd4fabae0c90e69a9b"
+    },
+    "sample_07": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "92b3a9742e0131d8eb18ec8a00b1cc64e8ebc43f20cbe58b9526b30284963eb2",
+      "obs_flips_actual.b8": "328d4fd78bb4d60e0a92a9239d2ad81443d15e4a9aa81373af7c4b9133708b93"
+    },
+    "sample_08": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "f61fb03b294c8eaf092df8f3eeb48d6ea0ae25146e4addeeb9e72e6f12b8713e",
+      "obs_flips_actual.b8": "f4d2ff7d0c4cab5947e0eb003debb5097b5e4febd099d7e967da5e8e7a225a2b"
+    },
+    "sample_09": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "40a3f33e65914f8c398cd98d9f573a442404d2a40fbec562616fcf17ecc60d36",
+      "obs_flips_actual.b8": "a102b2611d341a86939c641d015a9333688d9139b4fba803d1f8d8a48aa563e2"
+    },
+    "sample_10": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "8371164e7e3625c5d2a804155be657a88a9b05e6a37e1ed4bc22ba5bf8655699",
+      "obs_flips_actual.b8": "e50aedb698756988d86c73e52756cbbacfd7682b5c48cab56f75d539d49aa3d5"
+    },
+    "sample_11": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "b408d51700bda9e8a10434ba1c37d70ac2db68e87717add5709468a8a2051ae2",
+      "obs_flips_actual.b8": "4bd05ac9e99481e8dfdf4c0a9cf7772073a8a7d611f5a810bed894c3117d9d9f"
+    },
+    "sample_12": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "257059c7674ac1d976b18a329a77f484e5a22cd2a85c2e1209a0ffa12fc6c95c",
+      "obs_flips_actual.b8": "8adebd440bcc7b6116c5fc83ee6b2f522f92bfd706f81ea2c4e3679a4bb396ee"
+    },
+    "sample_13": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "0d094bdf9b76b632bed023fe61302674649a7288f69d9b02ec8228170db8eef7",
+      "obs_flips_actual.b8": "712843d6208bf7f4506d2bae160dfc466715c28071b12a1e6c5e93c49b5c0bb9"
+    },
+    "sample_14": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "80d92fed606b0aec2fce0334cba3adddd4301511d69966eea61ff14b5cfa9f7a",
+      "obs_flips_actual.b8": "7e60b2fbe62962bc591bedf8d6dc7a5ded0221cbe70fcf573ac04b0a8a312c31"
+    },
+    "sample_15": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "1b6353a1c6fa46f44f479add3988c731adacea575cc5573072fbe238e10242cf",
+      "obs_flips_actual.b8": "3d81b0d8992dc30fbf9070033fcbf42209d1ce1c751ce3211d17daf804b61cf5"
+    },
+    "sample_16": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "e6fb0e23b047152af8b915c03d3c60491d5665a01718d1ba734d7c04310ce3b0",
+      "obs_flips_actual.b8": "b09989c6c4662c41ed069b29934080422ed692023d7c0c9fca0b87bf65121eb5"
+    },
+    "sample_17": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "ff7a4cf9d9a55f241cace2ce93641164f34af1a7cb09158471c50024930e73bc",
+      "obs_flips_actual.b8": "22177ec70023239edb70563f72e279a95cf46c5823ced9bb2509c92156ef93c2"
+    },
+    "sample_18": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "9a4a2b7770628a30e0577716518ddfd502e00c0becfaf7ab9428ba116fa6c4ec",
+      "obs_flips_actual.b8": "17c8d36323d0ae29d1042c00f62070a084b8dfdc46e280d40a4e3d387e484237"
+    },
+    "sample_19": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "bb4c2e5ff39ab979258d345f5fa946727959d8981edd126a2bd9503f31b0649f",
+      "obs_flips_actual.b8": "cacef9847fca036ec5aaac3dbaa599a9119822f53ba431e92d25f9c9f6aeaa59"
+    },
+    "sample_20": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "57875871e57d25cafb4bf325e5b22a9e9767ece0daa6219550646d46a69244ca",
+      "obs_flips_actual.b8": "4617e9b11573da0c84994d0de86572bd939cd315c12498a6ef7157700aede65f"
+    },
+    "sample_21": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "333b9cdaa29ff928343e14f71d8f86db9655bb16a391598827a1519b551b84b3",
+      "obs_flips_actual.b8": "f64ddd69c3dee9b2f1d802d0bd96a6cb41c51a30ddd8c1c49669cdb04668fadb"
+    },
+    "sample_22": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "feabeb9a8220a300547c6e738969a29c83c1ed6a73167316dd4696443b660677",
+      "obs_flips_actual.b8": "8dfd7ac8ac9d617f84f5dfdec88e050904d529083ad0a7d8c7bdc55e8ac9f7ff"
+    },
+    "sample_23": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "059aad5ad7ec36e575e47717bd1ec1bf2bbf8756db596f7a9e0fc86cd85dedde",
+      "obs_flips_actual.b8": "0c88d549faabb94c58a32651edad800bd7b9b19a0f529e806a6df77a88c0fc94"
+    },
+    "sample_24": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "3fbd59f7570707df1aa1796c49860e41e85787395fc44eb06e2394eff120047a",
+      "obs_flips_actual.b8": "cce73e0ddcfc7329109124fd02d3056e46427f4cb2519f611243efa238e83802"
+    },
+    "sample_25": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "4ae9482100b404bf221415596b875b0627fcfcc5ece57caa0c2f5ecabef57184",
+      "obs_flips_actual.b8": "8f62723c70be22f91a21447e8f103429fdc3b805a6904394ab51e5453e7f02bf"
+    },
+    "sample_26": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "7eb26b191a96b2f8b48177825621d0ac17bf5957cecb82a9c74148bd86ca7cdd",
+      "obs_flips_actual.b8": "9151f3f612f2380290e5365c51dfe557732d15160ada7b5fa3c7c08bd4f3a866"
+    },
+    "sample_27": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "372206384f393ff588b9cea38c91de0babcf3145d84020e47749944efec27e18",
+      "obs_flips_actual.b8": "68370934bdabbfa8f7e9dcc11a4973a2f05769eda6c7573c384f49e16526a657"
+    },
+    "sample_28": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "dc2bd5b58926447f8b200c45793b1f9eeebf88ae4813b5fa722ae9896c73e7c2",
+      "obs_flips_actual.b8": "9c6ee3ac58f51aed3f05fc2a2aca7d8de8ae9a2ea609d13f9e895116b32b63be"
+    },
+    "sample_29": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "582989042882c917d065ec9556a0ac106cc34b9f757f84824445dd7cb749dba8",
+      "obs_flips_actual.b8": "44e09f36bda1a92e61c80c84af3cb3e86408cd865367263df9a64e42d9d97ec5"
+    },
+    "sample_30": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "28353e07f12f786ab43ae171a620ac4b0a2e4c8f0921694077e492da37ea527f",
+      "obs_flips_actual.b8": "42a45b08254f671b9aca86a58c5cc7d669b7e5d1d48d4458965b6a2ccfd070c0"
+    },
+    "sample_31": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "540d572b583e540fcd7e990c5bc9b37073270643f618c02382ecf7e758676327",
+      "obs_flips_actual.b8": "5c0e717088bf356ca198dfed3557b08b27797cb392719ce151c66227cb30c6c5"
+    },
+    "sample_32": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "7b418a83ec3717dc523937d6170cfce0fd485b651e3df3c234c3c6ab66c18ab2",
+      "obs_flips_actual.b8": "98d2e19fe23406802c76d0ca9c5604b302132f2df85b8c577b9c74f737256690"
+    },
+    "sample_33": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "dda598fdcb1c43551b378208d4eced4e30bae05731dce020fcbc44419123f330",
+      "obs_flips_actual.b8": "e4d100fb3b3afcaf1a2162a5085ec5d6c524a1579f305406869333314cc74f35"
+    },
+    "sample_34": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "dcadc630d5fca7f9a653347408780fcebbf78d7ca1679aa90b16e4e1e4ba71e8",
+      "obs_flips_actual.b8": "037db1961c7369ab45a15548ac7e9492d55950ec78ac53f26d0fc04ecf7e24bb"
+    },
+    "sample_35": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "4d6af35e6ff7c55ccd29bbcc9fb329abb46543d8b4f44057e87d6f9e22ca2993",
+      "obs_flips_actual.b8": "59262e6f6fc810a918126ad972389fb50b4a85dc5d36a426fd0726a05f863cc9"
+    },
+    "sample_36": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "181016c28eb931ac9656030792bf384e5deab6236024806c9d868fccd4875c38",
+      "obs_flips_actual.b8": "462789ed3f57d93335ec9173399406429015bbf9fde62b18a351bea810e316d6"
+    },
+    "sample_37": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "b760c224e078a4601352a94a6ef40edefcb9f8ade0f76bc1afd802f2d357f9d2",
+      "obs_flips_actual.b8": "4f8ed7f348260a8b8fc34d640cc5ea5aedbb0cd008c77f7c503dc8a77e7376f8"
+    },
+    "sample_38": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "63362d81c50db144bb441a039cf9d9f9225acf8f84a1cfba3d1b5fbc5d06147f",
+      "obs_flips_actual.b8": "7bbd7dfe9f4733a06026c2c1c7c9f096f22c5c891d0fcd7063c9c4ec6a5a6257"
+    },
+    "sample_39": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "42d3533bf37da5e90aaba9e27cde0c870e52c5a847fe419594bab47e1195d5f1",
+      "obs_flips_actual.b8": "e00f3f00dfbb04cd436d2252929f17a9da6d94112f2143f0064a3a84e5b6807f"
+    },
+    "sample_40": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "a480e79087a83a4d7740a9e27edda6a0c1d9f6da97c176b5fc53a63d16d12a4c",
+      "obs_flips_actual.b8": "02b0490e755895ab76fea251162dddc5477881422b02236a978c4cbd24ee324d"
+    },
+    "sample_41": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "317d993684d5aac2ba6e89c1b4c718fae1da372f3b821d53d220fe2185487d39",
+      "obs_flips_actual.b8": "405af418de9ad2f620e64f54f589a7a0427208a2010d57648e2d7e4249603047"
+    },
+    "sample_42": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "9e1337f7b70364be9fd4926cdbff4c7c4ea2d6c3e8c063539f9b2c87fcd7b485",
+      "obs_flips_actual.b8": "ae2c57108fffaf9720d53305c174b902517e1f49d71626e4eaa415f3f4f4d0e4"
+    },
+    "sample_43": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "483e43ce013335fa657770c79bdca2bd8b3db44918615730e0ba34b04ab4c45a",
+      "obs_flips_actual.b8": "8a14e9c8fe342bab6a7ebd05812ad9c8be4c552bac9d66aa506cb6441182a5d6"
+    },
+    "sample_44": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "bc519469b06fdd21658b420e6f9c51cf30f0882773f1e092306f504e4a58e4a3",
+      "obs_flips_actual.b8": "30e8a66f8815107611a8333909fdf87ee55f4f237cce561d3857cda3ff1ac199"
+    },
+    "sample_45": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "94389bb4a82797f572e7aab13d5abf4f79aa4932fbfc5c8d09d6eee982a2003e",
+      "obs_flips_actual.b8": "c6b385490aafc90e6ac1118bcb833c44ec0d6cf48b84c8c199f9fa717940e649"
+    },
+    "sample_46": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "d0bccfd73e472dca3968fad5ad91d53f1a67faf9f6ca711c3794200a6ab830c0",
+      "obs_flips_actual.b8": "d20532c475fce03a352fc3d9e8895728678e6397df14084f08691c685516a05a"
+    },
+    "sample_47": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "4fc630cc4ebb423f251e512431218ea78ed237f1efccaed3fbeca330c82708eb",
+      "obs_flips_actual.b8": "c337482fdca08066f4ba8f530b3ddc93e9992055d23aaa8157d6ca6e5702560a"
+    },
+    "sample_48": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "bc9d52d132231a8c9f985a02ce593df432e735791d702d3bffe9595507dd18b1",
+      "obs_flips_actual.b8": "b9efaf18f61acc5d6166b0ed78177bf0f5a3d1a5b35cce3aa649d01f772f1d45"
+    },
+    "sample_49": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "c5b5d4acf9f1b138900ed5e3dc96e46ae830d1051df306c6bbbc078f38ac9a7e",
+      "obs_flips_actual.b8": "77dd656d56c744a36e4112650f2fba844e5629a2bb6b6545814edce7f352cb3b"
+    },
+    "sample_50": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "03b49e7d18bbd2f6a928e72d38e68cb5c60a40229e16ff5668887d0ff7f75ada",
+      "obs_flips_actual.b8": "c06a2a90b8181072c5c2a24f6b6dc446c2374c2565b276486aa2fb350d68419c"
+    },
+    "sample_51": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "903dac8a3956568879b5da4589371f1898662bd6fd737774e71068106e259714",
+      "obs_flips_actual.b8": "658b6be7982a23901dca6c6a879b01c4201bc7115d93f5fce77444891f0553c2"
+    },
+    "sample_52": {
+      "circuit_ideal.stim": "6f1233f813040af5e036f2e8970f38ca808f7cfa8cdbccedb9c3d20524de7809",
+      "detection_events.b8": "a040f075508eeb4475b101ff3523d84334f54ec560e46c525b4bda8af7509bcb",
+      "obs_flips_actual.b8": "3d5c4a4d422b3f99c1d89bcd3a0e9984c7c9ce19574d0f4774b44f7921172cf6"
+    }
+  },
+  "dem_sha256": {
+    "sample_00": "d18d24721f492b44ec3c5fa6eef8f9cef4540a2e17664bd5983185c8ba666f06",
+    "sample_01": "9c78ae64e367be9fb1744de7303706462505ea2512cf428cf4cb8f916c0c397f",
+    "sample_02": "33ac8a3a3253030f5ff04be1d291337999ffe2e2960cde42c13da1409cde7293",
+    "sample_03": "f13636f4fd3e01f8b65b54e5b7080bf7dee014c85cc534c3eeb1ed2402ec237a",
+    "sample_04": "4284a877d5eb56153974a65fe934d16cbc4063f65b6cb1086e81fbff8aa4b1ac",
+    "sample_05": "153c646b7de581e1e3ecad8892211d9fe91078635cb9d860e6e14ffff9336764",
+    "sample_06": "ff5efc880d928f8d5ec17b7a0216fae00d17923b971d4e928fa390cf3b034d76",
+    "sample_07": "48cf12e358b73016dcf3d964d76e1dda844f14833105fc288af45bb3408bb715",
+    "sample_08": "1a3c6dff44041530d4cb7118c0c51c01bddc4f23dfb27738d163fe210fae367c",
+    "sample_09": "ecf49e3bf2e9f0872be380dd6e0aaa2f37040f9be7f6e920ab77dd4c1b82051a",
+    "sample_10": "9797b6865027280d86253e24bf9b190a38c94d22d4a227559e5629956801002a",
+    "sample_11": "eead0c035f3ac025f120cdf98c530ba3f7e07cff2290d24c3127a0f350724c98",
+    "sample_12": "7185dc9080580b02e0a27235c636144233c5286d01d40f0030ab4b89d278e8cf",
+    "sample_13": "9af865625944cd3556181ae1d9895c8d5e910d3414a802f372caddbe5cefeb2c",
+    "sample_14": "fe3930d81a8f17383dd17be9547a43fa70f6ab0e72ba79e55d94fd3e491d5da9",
+    "sample_15": "8150e8a148eaa85674656ec445bdaaad3227da8e90be816008c8069c22d5c547",
+    "sample_16": "7a9d80d13eed6701248e38dac49982198692f78b949825156038bb26b74e420c",
+    "sample_17": "8d417f2b154dbe2895966f31b3a65a7d4cb332c30c8205154ef88be85148e5f4",
+    "sample_18": "b382dbdedae78c8d85509f90279e191f37a6f5e045e919a12d9622cfeae30171",
+    "sample_19": "7d2da85a2db7d8385a96b42ea9b2a9c7c07248a234d0957c0432cfcefb3d51ea",
+    "sample_20": "72a24058a24a366916aedd99360bc2e7dc26fdcb1e6d51e1e5f657dc882edeb4",
+    "sample_21": "94726698a6b37d71bb9d2680caea23e7a79e85b34edd7a30a21aa9418d7037cb",
+    "sample_22": "6c26884579c73bb70fc616556f57d6d07d63b48ff51476aa39915f0831a2ab37",
+    "sample_23": "7cb6ca57725090a9f9e2f645d9238817ac8dc60696161013cadb220f5be44f39",
+    "sample_24": "d7829374c8b1bd048e60727481c9f1d2abbc071f01e867ae0c4287cec884ba96",
+    "sample_25": "465dac7e766d2b49a60f6894012aedeeb365e80f51d3ae941b277056f0609222",
+    "sample_26": "69fdc9555c61d3656ad20edff714de2c681053fd7bc306896af69e2ba4342b94",
+    "sample_27": "41b10d0a840c9bde255e6d108531acdb9c9245b8d682dc7137cd3f0087c59259",
+    "sample_28": "5a25b430b6d1a6d1c137c476dfac21e9eacfbdf7b93f55da7266784171ac21d6",
+    "sample_29": "d64b0ef0b2853004b54e4aa679cd403767b63c0d8862a436d2fd794d78e9ea50",
+    "sample_30": "65f9fc2d4d3899c841a5f59710d6b59b1a88157d54d88ba688989b8548ea45e0",
+    "sample_31": "4e3d0c16336f95d8b47c18061391b2b14561aa3ee4849ea2bbe6bd61532aa1f8",
+    "sample_32": "9fe1fd10795995b7b91a9475f210e399e3b14e7f5b180176f0b967597f4c9051",
+    "sample_33": "0a83911534583c0c7152e262a4ec1fe22ebe50dac6b628d91a03a5ad1a901f24",
+    "sample_34": "ac847393d5758e5b1fa7d396f915faecda04e2be19ee5fd7f82c696ea1cc5caf",
+    "sample_35": "4cefa81aa0fb6393c97b0902cf00a1b60181e857b23367594dafb1c68fd87128",
+    "sample_36": "83b3cc29614a8575637d02777bec528f6fbff3a1b9dc646e31ba9470cc5e1482",
+    "sample_37": "70587fb1d88f07c7f4732cafea414e7d4cbf83b5d6b09c16c983368347606e81",
+    "sample_38": "4ab858df9fdac91c8ebcfea0aff3054bf7eb4bb44c86dc0fbba4a32a01bf00ed",
+    "sample_39": "337546b81b07b448de1e071c660e48f62906070e9c9d64a9f5b4df4403ccb844",
+    "sample_40": "86e8e7954399dd117ba9f31d13aca3e9c7f306a5bbb8df3f92a2aa5db81fb29c",
+    "sample_41": "9092da3073d7af829970bd6406244290e5c1a0d8076c51421f4be208a7c1661d",
+    "sample_42": "a0a99ead0363bdc4e2e57ef8fd5210ff6f55572de86efae31e6f4365c2a2332a",
+    "sample_43": "975b6a06c04fbfc539088f9798148224d895ff14e1879cfe9173a14a3934f214",
+    "sample_44": "505639392be8eb4bb74535647cf1988544c77468cc8b785de40a75e7435e4850",
+    "sample_45": "280e4b5dad1efcd753ecdb79a6023f06308977e42c21bcb0fc2da3620d97bc33",
+    "sample_46": "5ede2233317eb26b05f7a4b001e00cda1c472e53a687a1a77f1ef43c7e237f87",
+    "sample_47": "def6ecec17245f9459ba21c04f6144276c4ca3e734d3e0a45a6a7a7de4219b12",
+    "sample_48": "aaa4524b7f50d0ef2986dbed867d4440212186eef6a767c495d12679fa1641a1",
+    "sample_49": "2e2a2c7c2f2528ac7f1833d715a99e3254e4d815dd829e4a7d31ba0246a5e049",
+    "sample_50": "24c8551f66e8c2e8d1267c2bd9f56cb9c796b4c380d30a5ee00d9258818b80a2",
+    "sample_51": "8f920caee551058425af0bb1ac9f944949554199c7e93ed70da1b68ee4ee8835",
+    "sample_52": "2725a6ca8a2f4854ee1f626099547e43edcda5593e9d3d81d4b59338e4370bfd"
+  },
+  "training_mode": "fresh_dataset",
+  "split_strategy": "within_each_sample",
+  "graph_type": "per_sample_detector_error_factor_graph",
+  "sample_count": 53,
+  "random_seed": 73,
+  "split_seed": 73,
+  "batch_size": 64,
+  "maximum_epochs": 0,
+  "fresh_shots_per_epoch": 120000,
+  "fixed_training_shots": 120000,
+  "calibration_fraction": 0.05,
+  "weights_file": "inference.weights.npz",
+  "precision": "mixed_float16",
+  "hidden_units": 64,
+  "dense_units": 64,
+  "dense2_units": 32,
+  "number_of_gcn_layers": 3,
+  "number_of_features": 13,
+  "feature_names": [
+    "detection_event",
+    "is_detector",
+    "is_error",
+    "x",
+    "y",
+    "t",
+    "initial_slice",
+    "final_slice",
+    "bulk",
+    "error_probability",
+    "matching_boundary",
+    "undetectable",
+    "flips_L0"
+  ],
+  "dropout_rate": 0.1,
+  "learning_rate": null,
+  "requested_device": "/GPU:0",
+  "tensorflow_version": "2.20.0",
+  "numpy_version": "1.26.4",
+  "early_stopping": {
+    "patience": 15,
+    "min_delta": 1e-05
+  },
+  "stim_version": "1.16.0",
+  "python_version": "3.11.13",
+  "platform": "Linux-7.2.2-x86_64-with-glibc2.35",
+  "test_evaluated": false,
+  "representative_graph": "sample_00",
+  "number_of_detectors": 648,
+  "number_of_errors": 10655,
+  "number_of_nodes": 11303,
+  "number_of_edges": 77287,
+  "number_of_incidences": 32992,
+  "num_train": 3180000,
+  "num_validation": 198750,
+  "num_calibration": 198750,
+  "num_test": 397500,
+  "sample_partitions": {
+    "sample_00": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_01": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_02": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_03": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_04": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_05": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_06": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_07": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_08": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_09": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_10": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_11": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_12": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_13": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_14": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_15": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_16": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_17": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_18": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_19": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_20": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_21": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_22": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_23": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_24": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_25": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_26": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_27": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_28": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_29": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_30": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_31": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_32": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_33": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_34": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_35": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_36": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_37": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_38": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_39": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_40": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_41": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_42": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_43": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_44": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_45": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_46": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_47": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_48": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_49": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_50": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_51": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    },
+    "sample_52": {
+      "train": 60000,
+      "validation": 3750,
+      "calibration": 3750,
+      "test": 7500
+    }
+  },
+  "parameter_count": 28290,
+  "parameter_bytes": 57928,
+  "resident_parameter_bytes": 113160,
+  "export_file_bytes": 57103,
+  "parameter_storage": "mixed_float16",
+  "completed_epochs": 0,
+  "study_protocol": "single_seed_batch_comparison",
+  "kind": "mixed_float16",
+  "parent_run": "/work/experiments/sycamore_benchmark_r25/fresh/batch_64/pruned64/attempt_1",
+  "parent_identity": {
+    "graph_structure.npz": "04d5c1b22bae7f3fd218b64cb7666cec2ef77dc603ba82224fc7545b10a16d90",
+    "shot_indices.npz": "b4760a046ee22e72bb74cf524ebd7c02f51247b577675fc7de1dd421b33e954f",
+    "inference.weights.npz": "36bee3633dcf90a85ccfbadd8f60ed28088f09f374dcbb9dc641afea9fd7fce7",
+    "collection.json": "f0be6354413d62162c7605204fc4821e8ad160258cb90b17d6578efa3b60434b",
+    "training_schedule.npz": "51a6e154ad4794dab2a06898e3d17c0885c4b789bf888456071608dc7c27b099",
+    "training_used.npz": "7fc9adc7d110e01649384bb81909851327bb33d18e742608f27b8fe3c3a32eba",
+    "graphs/sample_00.npz": "04d5c1b22bae7f3fd218b64cb7666cec2ef77dc603ba82224fc7545b10a16d90",
+    "graphs/sample_01.npz": "dace8e9dabfe80f19c0f3a446f62d3266acae72277828db7fdca868b28d22ff8",
+    "graphs/sample_02.npz": "69ea415315a57a97eb589637d91684d20a8b26c7912e6c24bf2d9cec4f217018",
+    "graphs/sample_03.npz": "fb8499010280cb4e9acf2d773d2b29a0a7da3f5cdb420ae761ae0fe76a9ebca2",
+    "graphs/sample_04.npz": "163110bac13ddbd5d3dad6ad50a489115cd2cb3b236f4cdf2e55c6fa3762e509",
+    "graphs/sample_05.npz": "7dba8fe3ccce9b33d1b18550cd101599f62b179ef4a16ad477be35e720118761",
+    "graphs/sample_06.npz": "714878b06bce53dc45056a88396461d9ddc268f3cf066338a5669c458e365d06",
+    "graphs/sample_07.npz": "1a59dee68a8d415951c9669a20f82a229688e671dd9de963668a9aa34ced72ee",
+    "graphs/sample_08.npz": "719b6d47072697fae6f3305a891b42ec9056b80e51e8b4877da8f497024431bf",
+    "graphs/sample_09.npz": "0bdd2b2560afac08910e1ef595aad0e007bd68889bd8612e7cbb439039a9bc4d",
+    "graphs/sample_10.npz": "77f77fe9e2c4f2cf114418257ab83749b72c145d9c7347d15db5e1a28601b541",
+    "graphs/sample_11.npz": "626a0f0d9529f25429525715e8bb41401e0cf8c1df57d4977622c8257092d947",
+    "graphs/sample_12.npz": "e26249dca135c0bf800903d5a2b40b6cfe128e36ee46ddbe9850b61b56faa89b",
+    "graphs/sample_13.npz": "3202280cae2c4287566f856a4a996646415a9670c7c6573ce6dd7423ba450e11",
+    "graphs/sample_14.npz": "8cb702e4bab98b8e3d8a18fd5377e840f71e2b7006bd06afce5b454e83c45fd0",
+    "graphs/sample_15.npz": "df3572f5cbb5bd7456eaf3a615a81f56d83bff7c1073ee61cb5c65a210f76d60",
+    "graphs/sample_16.npz": "71b5ed45211f9177d8e2419288eb21b5b975edad3baafaf6e3c6ef6af4cbfbaa",
+    "graphs/sample_17.npz": "ca2307f89112b3b7430f5dc2e0b1f52ccbe480cb43bdda4da58d76d4c807ebed",
+    "graphs/sample_18.npz": "940d3599069a0a7536f174dca2c8f9409896ae78044d9c679766180600ff8861",
+    "graphs/sample_19.npz": "76d7d78d0a338cec845300ebc71c35c82de4356fc8f514763bbff7c1da6b00ad",
+    "graphs/sample_20.npz": "4bb80903807a10b530f441b014db2caf0b425cc63ed50d25e01c2d0d53ec8a3c",
+    "graphs/sample_21.npz": "7c222fb3919eec943067d321b6150be31dfcf783d4327ea304c9a488b9c24c77",
+    "graphs/sample_22.npz": "deead8318f4d62319842018e4a398b02752c78e7875c0e11d93d44ed6358d2b2",
+    "graphs/sample_23.npz": "e26894a69aec29c7686248ca3193ab5afddaf48c500b6e9e48ced68e230b07dc",
+    "graphs/sample_24.npz": "b374ec94ade6bcd6bc9f4b05c93f3450a71188056d77826817e94a387d16a5c4",
+    "graphs/sample_25.npz": "c0fedab0b25a644c4dd5051d48d7281c99e1e09f461a3ebd39fc1a0648b471e9",
+    "graphs/sample_26.npz": "6144e797257b03297542b55f565c9176f5c85a6f03a245cc3c9a2a554dd3e6f2",
+    "graphs/sample_27.npz": "061cca81028bf641246be3f49215822bb55652fe39b685348800967016e39df3",
+    "graphs/sample_28.npz": "3920527e1d4669cb18483c12c80970bfcb88fa317cf1afee72a663f55c48010a",
+    "graphs/sample_29.npz": "0bce52ebe9f6e9968277051fa1bae8f40f9062e7dbe6f40b55e238ef8180b8ee",
+    "graphs/sample_30.npz": "e19a04f84523f106e353b574530ede84b24f86fa01b36b1a3eb88cc60f3fdc41",
+    "graphs/sample_31.npz": "3226e9fde23c1a3752d233dd68055d71680248bb5a8078f1f73609f5033adbff",
+    "graphs/sample_32.npz": "dafb38ea8e1cd6c0fb5651720feeb781957155af6296a19f7316cb072b7e14bc",
+    "graphs/sample_33.npz": "14d0ba9d4cb6a416280b008bac728c25a24e5024ee39bb25ade51528956d762b",
+    "graphs/sample_34.npz": "2a289dc8effaf2cabe321a5192a191a0ef8ac88316dd08dd9e7be2ed6c4a02c3",
+    "graphs/sample_35.npz": "b724c62f403fe1aade3597489c827f23906066fc4b30b2fae4169a1d6ef25d01",
+    "graphs/sample_36.npz": "42af4294ad57bf5de945214736ecc05550d09f9582bc7398a2c483dd05ae251c",
+    "graphs/sample_37.npz": "aaf2171f8c7e4a41b39d88c9abf2e4e8ac84a8891c305b945eb9b4960f71dade",
+    "graphs/sample_38.npz": "42d31e584bf459dfb647191a7ab99eb7545abc1ba9019f2c42e7fd8e23a00125",
+    "graphs/sample_39.npz": "59620cdb167781a88559ae3f9adc392dc379905af904408cf3baa4e1e7ceedc6",
+    "graphs/sample_40.npz": "2f058b1371a2017f5f49fcc1e5c0c1fbfb10ab40a7823510468fb1c2b7a32c51",
+    "graphs/sample_41.npz": "ed22314304343e1fb1cdb03ac7c9191acbebedeb15033a2a41d1e172c7a4a2f9",
+    "graphs/sample_42.npz": "c2dfea2b92ed8ee202a9361e453e70bee8beee5aa7b0a07b3fa0697560e614cb",
+    "graphs/sample_43.npz": "035fa646870da73507db25c62f9f0296de7b3a9c088d7deaafffa9518d3d348a",
+    "graphs/sample_44.npz": "bf2090dc1bcc9fcf97ccd4d159a6388a9c9a9a8bf70bfbcf4ac9b13e8561114a",
+    "graphs/sample_45.npz": "cbb64f0d5c25c45d296e5070387ded2532fa7cbc5df1d594d8e299e44a05ae61",
+    "graphs/sample_46.npz": "b8b84e5dc8cbe650fd04bbfecd39c7867625dde250bea33e39c0a1352565388c",
+    "graphs/sample_47.npz": "88bdcd4447ea26a8a88634011c1b89d7e96e9931c92a36b4ac89ac64132c0433",
+    "graphs/sample_48.npz": "ec9620bd404f605ae38ee86e86e34cf6156f5d41ffd9ac0132100f390164e367",
+    "graphs/sample_49.npz": "3b231ec7302360f75fc9b77027830030cf530fc9415491c79a99c57f01228bed",
+    "graphs/sample_50.npz": "5333025356268190627714b82bd70ffd04a0f42b73d2baad8975a19125ef5503",
+    "graphs/sample_51.npz": "9a50c98124ddf47555a108b89f12365eb9a9d00fa00ce70bafeedc7407681f87",
+    "graphs/sample_52.npz": "2337cccb7f04b9260bd12b6bf12c31bb1343bb3d9d924b04e1f29368ce6cfc4e",
+    "precision": "float32"
+  },
+  "retained_indices": null,
+  "fine_tuning_mode": "fixed_dataset",
+  "validation_selection": {
+    "source_bce": 0.6931390537003452,
+    "candidate_bce": 0.6931390623448133,
+    "max_bce_increase": 0.01,
+    "eligible": true
+  },
+  "validation_probability_max_abs_change": 3.039836883544922e-05,
+  "experiment_label": "fresh/batch_64/mixed64"
+}

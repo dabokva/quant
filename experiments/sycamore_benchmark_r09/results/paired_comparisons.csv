@@ -1,0 +1,13 @@
+run,reference,error_rate_difference,ci,first_only_wrong,second_only_wrong,method,repetitions,seed
+fresh/batch_64/baseline,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fresh/batch_64/pruned64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fresh/batch_64/mixed64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fresh/batch_128/baseline,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fresh/batch_128/pruned64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fresh/batch_128/mixed64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fixed/batch_64/baseline,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fixed/batch_64/pruned64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fixed/batch_64/mixed64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fixed/batch_128/baseline,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fixed/batch_128/pruned64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73
+fixed/batch_128/mixed64,constant,0.0,"[0.0, 0.0]",0,0,paired shot bootstrap,2000,73

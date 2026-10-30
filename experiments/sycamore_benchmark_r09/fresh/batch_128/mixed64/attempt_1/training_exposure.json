@@ -1,0 +1,170 @@
+{
+  "mode": "fixed",
+  "requested_epochs": 20,
+  "available_epochs": 20,
+  "completed_epochs": 20,
+  "fresh_shots_per_epoch": null,
+  "unique_training_shots_seen": 120000,
+  "reserved_training_shots": 3180000,
+  "fixed_training_shots": 120000,
+  "scheduled_unique_training_shots": 120000,
+  "scheduled_shots_per_sample": {
+    "sample_00": 2265,
+    "sample_01": 2265,
+    "sample_02": 2265,
+    "sample_03": 2265,
+    "sample_04": 2265,
+    "sample_05": 2265,
+    "sample_06": 2265,
+    "sample_07": 2265,
+    "sample_08": 2264,
+    "sample_09": 2264,
+    "sample_10": 2264,
+    "sample_11": 2264,
+    "sample_12": 2264,
+    "sample_13": 2264,
+    "sample_14": 2264,
+    "sample_15": 2264,
+    "sample_16": 2264,
+    "sample_17": 2264,
+    "sample_18": 2264,
+    "sample_19": 2264,
+    "sample_20": 2264,
+    "sample_21": 2264,
+    "sample_22": 2264,
+    "sample_23": 2264,
+    "sample_24": 2264,
+    "sample_25": 2264,
+    "sample_26": 2264,
+    "sample_27": 2264,
+    "sample_28": 2264,
+    "sample_29": 2264,
+    "sample_30": 2264,
+    "sample_31": 2264,
+    "sample_32": 2264,
+    "sample_33": 2264,
+    "sample_34": 2264,
+    "sample_35": 2264,
+    "sample_36": 2264,
+    "sample_37": 2264,
+    "sample_38": 2264,
+    "sample_39": 2264,
+    "sample_40": 2264,
+    "sample_41": 2264,
+    "sample_42": 2264,
+    "sample_43": 2264,
+    "sample_44": 2264,
+    "sample_45": 2264,
+    "sample_46": 2264,
+    "sample_47": 2264,
+    "sample_48": 2264,
+    "sample_49": 2264,
+    "sample_50": 2264,
+    "sample_51": 2264,
+    "sample_52": 2264
+  },
+  "unused_training_shots": 3060000,
+  "epochs": [
+    {
+      "epoch": 1,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 121.77918076096103
+    },
+    {
+      "epoch": 2,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 118.19891417806502
+    },
+    {
+      "epoch": 3,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 118.00953753909562
+    },
+    {
+      "epoch": 4,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.53273432690185
+    },
+    {
+      "epoch": 5,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 118.2160427540075
+    },
+    {
+      "epoch": 6,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.57816535199527
+    },
+    {
+      "epoch": 7,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.56703432498034
+    },
+    {
+      "epoch": 8,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.65841305209324
+    },
+    {
+      "epoch": 9,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.8503620250849
+    },
+    {
+      "epoch": 10,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.7656114930287
+    },
+    {
+      "epoch": 11,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 118.02419235394336
+    },
+    {
+      "epoch": 12,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.5155905680731
+    },
+    {
+      "epoch": 13,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.9601179669844
+    },
+    {
+      "epoch": 14,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 118.05375325400382
+    },
+    {
+      "epoch": 15,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 118.22282709297724
+    },
+    {
+      "epoch": 16,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.62769289396238
+    },
+    {
+      "epoch": 17,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.62149644596502
+    },
+    {
+      "epoch": 18,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.51953446795233
+    },
+    {
+      "epoch": 19,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 117.07408796693198
+    },
+    {
+      "epoch": 20,
+      "training_shots": 120000,
+      "elapsed_seconds_including_validation": 116.8578353059711
+    }
+  ],
+  "stop_reason": "epoch_limit"
+}

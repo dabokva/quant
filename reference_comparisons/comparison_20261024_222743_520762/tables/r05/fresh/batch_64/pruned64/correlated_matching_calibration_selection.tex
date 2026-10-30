@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering\small
+\setlength{\tabcolsep}{3pt}
+\caption{r05: fresh/batch\_64/pruned64; correlated\_matching; calibration selection. Accuracies and acceptance are percentages; change is in percentage points relative to the classical decoder.}
+\begin{tabular}{lrrrrr}
+\toprule
+Threshold & Accepted & Neural (acc.) & Classical (acc.) & Hybrid & Change \\
+\midrule
+Delegate all & 0.00 & -- & -- & 82.09 & +0.000 \\
+Original gate & 0.00 & -- & -- & 82.09 & +0.000 \\
+0.5 & 100.00 & 58.94 & 82.09 & 58.94 & -23.151 \\
+0.6 & 32.45 & 74.40 & 87.73 & 77.76 & -4.328 \\
+0.7 & 18.23 & 82.26 & 90.78 & 80.53 & -1.555 \\
+0.8 & 9.15 & 89.42 & 93.99 & 81.67 & -0.418 \\
+0.9 & 4.29 & 94.53 & 96.22 & 82.01 & -0.072 \\
+0.95 & 2.21 & 95.90 & 96.77 & 82.07 & -0.019 \\
+0.97 & 1.14 & 96.39 & 97.54 & 82.07 & -0.013 \\
+0.98 & 0.36 & 97.51 & 98.89 & 82.08 & -0.005 \\
+0.985 & 0.08 & 98.72 & 100.00 & 82.09 & -0.001 \\
+0.99 & 0.00 & -- & -- & 82.09 & +0.000 \\
+0.995 & 0.00 & -- & -- & 82.09 & +0.000 \\
+1 & 0.00 & -- & -- & 82.09 & +0.000 \\
+\bottomrule
+\end{tabular}
+\par\smallskip\footnotesize Neural (acc.) and Classical (acc.) refer to the same accepted subset. An empty accepted subset has undefined accuracy.
+\end{table}

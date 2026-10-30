@@ -1,0 +1,1407 @@
+{
+  "source_run": "/work/experiments/sycamore_benchmark_fixed120k/fresh/batch_64/baseline/collection_gcn_20261013_152010_212105",
+  "source_graph_sha256": "04d5c1b22bae7f3fd218b64cb7666cec2ef77dc603ba82224fc7545b10a16d90",
+  "sample": "sample_00",
+  "initialization": "fresh",
+  "architecture": {
+    "hidden_units": 96,
+    "number_of_gcn_layers": 3,
+    "dense_units": 128,
+    "dense2_units": 64
+  },
+  "training_shots": 2000,
+  "training_positive_fraction": 0.5,
+  "validation_shots": 3750,
+  "validation_positive_fraction": 0.5178666666666667,
+  "training_selection": "fixed balanced subset of reserved training partition",
+  "validation_selection": "complete original validation partition for this acquisition",
+  "batch_size": 16,
+  "maximum_epochs": 50,
+  "learning_rate": 0.001,
+  "dropout": 0.0,
+  "precision": "float32",
+  "seed": 73,
+  "device": "/GPU:0",
+  "updates_per_epoch": 125,
+  "note": "Exploratory single-acquisition diagnostic. Validation has no gradient updates. No calibration or test records are evaluated; not a final benchmark result.",
+  "history": [
+    {
+      "epoch": 0,
+      "optimizer_updates": 0,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.7986977799412502,
+        "roc_auc": 0.4925155,
+        "probability_min": 0.24623766541481018,
+        "probability_max": 0.2917880117893219,
+        "probability_std": 0.0070263235829770565,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.8158062566558067,
+        "roc_auc": 0.49296467012385736,
+        "probability_min": 0.2343660295009613,
+        "probability_max": 0.29413121938705444,
+        "probability_std": 0.0072989072650671005,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 0.0,
+      "elapsed_seconds": 7.482681536988821,
+      "epoch_seconds_including_evaluation": 7.4826823769835755
+    },
+    {
+      "epoch": 1,
+      "optimizer_updates": 125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6963219740387572,
+        "roc_auc": 0.540865,
+        "probability_min": 0.4451490640640259,
+        "probability_max": 0.47192731499671936,
+        "probability_std": 0.003714371472597122,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6997968605401341,
+        "roc_auc": 0.5009627938080439,
+        "probability_min": 0.4450130760669708,
+        "probability_max": 0.47208917140960693,
+        "probability_std": 0.0035865160170942545,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 1.4793009819081093,
+      "elapsed_seconds": 22.378623622993473,
+      "epoch_seconds_including_evaluation": 14.886285462998785
+    },
+    {
+      "epoch": 2,
+      "optimizer_updates": 250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.7031117989123925,
+        "roc_auc": 0.530265,
+        "probability_min": 0.421681672334671,
+        "probability_max": 0.43770620226860046,
+        "probability_std": 0.0022656789515167475,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.7084505852414718,
+        "roc_auc": 0.4888202849448156,
+        "probability_min": 0.42177334427833557,
+        "probability_max": 0.4377700686454773,
+        "probability_std": 0.002198371570557356,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 1.7013826169703923,
+      "elapsed_seconds": 33.195985900005326,
+      "epoch_seconds_including_evaluation": 10.808638848015107
+    },
+    {
+      "epoch": 3,
+      "optimizer_updates": 375,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6958302448645047,
+        "roc_auc": 0.520356,
+        "probability_min": 0.5347614884376526,
+        "probability_max": 0.5380235314369202,
+        "probability_std": 0.0005673646810464561,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6932675764062127,
+        "roc_auc": 0.48488950584654084,
+        "probability_min": 0.5346017479896545,
+        "probability_max": 0.5382032990455627,
+        "probability_std": 0.000553448626305908,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.2192141225098183,
+      "elapsed_seconds": 44.02506882301532,
+      "epoch_seconds_including_evaluation": 10.819564858975355
+    },
+    {
+      "epoch": 4,
+      "optimizer_updates": 500,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6949041235707969,
+        "roc_auc": 0.5113675,
+        "probability_min": 0.46835315227508545,
+        "probability_max": 0.47066327929496765,
+        "probability_std": 0.0004282117879483849,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6970583103859366,
+        "roc_auc": 0.528452614766275,
+        "probability_min": 0.46826815605163574,
+        "probability_max": 0.47068360447883606,
+        "probability_std": 0.00041579495882615447,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.3562303414027994,
+      "elapsed_seconds": 54.88855760399019,
+      "epoch_seconds_including_evaluation": 10.852527440991253
+    },
+    {
+      "epoch": 5,
+      "optimizer_updates": 625,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6932157826677521,
+        "roc_auc": 0.524902,
+        "probability_min": 0.5058985948562622,
+        "probability_max": 0.5063557624816895,
+        "probability_std": 6.555838626809418e-05,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6927846740924385,
+        "roc_auc": 0.4965857204050199,
+        "probability_min": 0.5059023499488831,
+        "probability_max": 0.5063644647598267,
+        "probability_std": 6.22900333837606e-05,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.3783787735034427,
+      "elapsed_seconds": 65.75089314102661,
+      "epoch_seconds_including_evaluation": 10.85273432196118
+    },
+    {
+      "epoch": 6,
+      "optimizer_updates": 750,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931750046449983,
+        "roc_auc": 0.470703,
+        "probability_min": 0.49647703766822815,
+        "probability_max": 0.49693989753723145,
+        "probability_std": 6.449437933042645e-05,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6934010286523239,
+        "roc_auc": 0.5021216779982319,
+        "probability_min": 0.49647438526153564,
+        "probability_max": 0.4969704747200012,
+        "probability_std": 6.345393921947107e-05,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.3948302016074057,
+      "elapsed_seconds": 76.59947364602704,
+      "epoch_seconds_including_evaluation": 10.838559029973112
+    },
+    {
+      "epoch": 7,
+      "optimizer_updates": 875,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931497342665003,
+        "roc_auc": 0.5290165,
+        "probability_min": 0.5020558834075928,
+        "probability_max": 0.5025429725646973,
+        "probability_std": 8.112392970360816e-05,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6929907543807058,
+        "roc_auc": 0.4979378468962752,
+        "probability_min": 0.5020545125007629,
+        "probability_max": 0.5025438666343689,
+        "probability_std": 7.738265412626788e-05,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.396065038915115,
+      "elapsed_seconds": 87.45773997099604,
+      "epoch_seconds_including_evaluation": 10.845481936994474
+    },
+    {
+      "epoch": 8,
+      "optimizer_updates": 1000,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471822175633,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000287890434265,
+        "probability_max": 0.5000287890434265,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931451247605908,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000287890434265,
+        "probability_max": 0.5000287890434265,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.403352451164785,
+      "elapsed_seconds": 98.31934478803305,
+      "epoch_seconds_including_evaluation": 10.84952659899136
+    },
+    {
+      "epoch": 9,
+      "optimizer_updates": 1125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.693147184653247,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000452399253845,
+        "probability_max": 0.5000452399253845,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931439515065707,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000452399253845,
+        "probability_max": 0.5000452399253845,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.403334606288241,
+      "elapsed_seconds": 109.18344801903004,
+      "epoch_seconds_including_evaluation": 10.854748642013874
+    },
+    {
+      "epoch": 10,
+      "optimizer_updates": 1250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931526992419706,
+        "roc_auc": 0.5,
+        "probability_min": 0.5016611218452454,
+        "probability_max": 0.5016611218452454,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.693033983963997,
+        "roc_auc": 0.5,
+        "probability_min": 0.5016611218452454,
+        "probability_max": 0.5016611218452454,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4033514392818627,
+      "elapsed_seconds": 120.04428095702315,
+      "epoch_seconds_including_evaluation": 10.851934275997337
+    },
+    {
+      "epoch": 11,
+      "optimizer_updates": 1375,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931493113293052,
+        "roc_auc": 0.5,
+        "probability_min": 0.5010321736335754,
+        "probability_max": 0.5010321736335754,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6930755452155066,
+        "roc_auc": 0.5,
+        "probability_min": 0.5010321736335754,
+        "probability_max": 0.5010321736335754,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4033544263192117,
+      "elapsed_seconds": 130.93565424601547,
+      "epoch_seconds_including_evaluation": 10.881259817979299
+    },
+    {
+      "epoch": 12,
+      "optimizer_updates": 1500,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931484700638891,
+        "roc_auc": 0.5,
+        "probability_min": 0.4991970360279083,
+        "probability_max": 0.4991970360279083,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932058552717602,
+        "roc_auc": 0.5,
+        "probability_min": 0.4991970360279083,
+        "probability_max": 0.4991970360279083,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4033861155567817,
+      "elapsed_seconds": 141.80063629703363,
+      "epoch_seconds_including_evaluation": 10.854196091997437
+    },
+    {
+      "epoch": 13,
+      "optimizer_updates": 1625,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931489334303254,
+        "roc_auc": 0.5,
+        "probability_min": 0.4990638196468353,
+        "probability_max": 0.4990638196468353,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932158391977493,
+        "roc_auc": 0.5,
+        "probability_min": 0.4990638196468353,
+        "probability_max": 0.4990638196468353,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4034085185687055,
+      "elapsed_seconds": 152.64628027001163,
+      "epoch_seconds_including_evaluation": 10.836703851993661
+    },
+    {
+      "epoch": 14,
+      "optimizer_updates": 1750,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471879959811,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000609755516052,
+        "probability_max": 0.5000609755516052,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931428302765381,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000609755516052,
+        "probability_max": 0.5000609755516052,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4033996999065126,
+      "elapsed_seconds": 163.49900614400394,
+      "epoch_seconds_including_evaluation": 10.84231216297485
+    },
+    {
+      "epoch": 15,
+      "optimizer_updates": 1875,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931477792212718,
+        "roc_auc": 0.5,
+        "probability_min": 0.5005471110343933,
+        "probability_max": 0.5005471110343933,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931086790037417,
+        "roc_auc": 0.5,
+        "probability_min": 0.5005471110343933,
+        "probability_max": 0.5005471110343933,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.403417384312757,
+      "elapsed_seconds": 174.3625354699907,
+      "epoch_seconds_including_evaluation": 10.85422868799651
+    },
+    {
+      "epoch": 16,
+      "optimizer_updates": 2000,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931472419764209,
+        "roc_auc": 0.5,
+        "probability_min": 0.5001752376556396,
+        "probability_max": 0.5001752376556396,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931347183247852,
+        "roc_auc": 0.5,
+        "probability_min": 0.5001752376556396,
+        "probability_max": 0.5001752376556396,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.403459998336128,
+      "elapsed_seconds": 185.25127025903203,
+      "epoch_seconds_including_evaluation": 10.878987225994933
+    },
+    {
+      "epoch": 17,
+      "optimizer_updates": 2125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931494490823695,
+        "roc_auc": 0.5,
+        "probability_min": 0.4989349842071533,
+        "probability_max": 0.4989349842071533,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932255623261413,
+        "roc_auc": 0.5,
+        "probability_min": 0.4989349842071533,
+        "probability_max": 0.4989349842071533,
+        "probability_std": 8.940696716308594e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4035272312072604,
+      "elapsed_seconds": 196.10365930001717,
+      "epoch_seconds_including_evaluation": 10.844149154028855
+    },
+    {
+      "epoch": 18,
+      "optimizer_updates": 2250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931490680570632,
+        "roc_auc": 0.5,
+        "probability_min": 0.4990285336971283,
+        "probability_max": 0.4990285336971283,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932184956028711,
+        "roc_auc": 0.5,
+        "probability_min": 0.4990285336971283,
+        "probability_max": 0.4990285336971283,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.403559696014243,
+      "elapsed_seconds": 206.95625989802647,
+      "epoch_seconds_including_evaluation": 10.842690541001502
+    },
+    {
+      "epoch": 19,
+      "optimizer_updates": 2375,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931476405521375,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004795789718628,
+        "probability_max": 0.5004795789718628,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931133666311045,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004795789718628,
+        "probability_max": 0.5004795789718628,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4035627913173103,
+      "elapsed_seconds": 217.81273735500872,
+      "epoch_seconds_including_evaluation": 10.847410397022031
+    },
+    {
+      "epoch": 20,
+      "optimizer_updates": 2500,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931485109689469,
+        "roc_auc": 0.5,
+        "probability_min": 0.49918439984321594,
+        "probability_max": 0.49918439984321594,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932067992451831,
+        "roc_auc": 0.5,
+        "probability_min": 0.49918439984321594,
+        "probability_max": 0.49918439984321594,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4036395532911348,
+      "elapsed_seconds": 228.68165639298968,
+      "epoch_seconds_including_evaluation": 10.860609031980857
+    },
+    {
+      "epoch": 21,
+      "optimizer_updates": 2625,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931534752670829,
+        "roc_auc": 0.5,
+        "probability_min": 0.4982259273529053,
+        "probability_max": 0.4982259273529053,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932802628576542,
+        "roc_auc": 0.5,
+        "probability_min": 0.4982259273529053,
+        "probability_max": 0.4982259273529053,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4037182487559856,
+      "elapsed_seconds": 239.54581241001142,
+      "epoch_seconds_including_evaluation": 10.855127813993022
+    },
+    {
+      "epoch": 22,
+      "optimizer_updates": 2750,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931482732678714,
+        "roc_auc": 0.5,
+        "probability_min": 0.5007391571998596,
+        "probability_max": 0.5007391571998596,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.693095448128173,
+        "roc_auc": 0.5,
+        "probability_min": 0.5007391571998596,
+        "probability_max": 0.5007391571998596,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.403719490476321,
+      "elapsed_seconds": 250.41497446398716,
+      "epoch_seconds_including_evaluation": 10.860112391004805
+    },
+    {
+      "epoch": 23,
+      "optimizer_updates": 2875,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931501740580982,
+        "roc_auc": 0.5,
+        "probability_min": 0.4987765848636627,
+        "probability_max": 0.4987765848636627,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932376076343297,
+        "roc_auc": 0.5,
+        "probability_min": 0.4987765848636627,
+        "probability_max": 0.4987765848636627,
+        "probability_std": 8.940696716308594e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.403846872893794,
+      "elapsed_seconds": 261.2885054689832,
+      "epoch_seconds_including_evaluation": 10.863640761992428
+    },
+    {
+      "epoch": 24,
+      "optimizer_updates": 3000,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931503301991588,
+        "roc_auc": 0.5,
+        "probability_min": 0.5012549161911011,
+        "probability_max": 0.5012549161911011,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6930606453337185,
+        "roc_auc": 0.5,
+        "probability_min": 0.5012549161911011,
+        "probability_max": 0.5012549161911011,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.403845361036843,
+      "elapsed_seconds": 272.1593140690238,
+      "epoch_seconds_including_evaluation": 10.859732693003025
+    },
+    {
+      "epoch": 25,
+      "optimizer_updates": 3125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931474457771278,
+        "roc_auc": 0.5,
+        "probability_min": 0.49963584542274475,
+        "probability_max": 0.49963584542274475,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931734706955172,
+        "roc_auc": 0.5,
+        "probability_min": 0.49963584542274475,
+        "probability_max": 0.49963584542274475,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.403936920817428,
+      "elapsed_seconds": 283.0090721779852,
+      "epoch_seconds_including_evaluation": 10.83874813199509
+    },
+    {
+      "epoch": 26,
+      "optimizer_updates": 3250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931472370250815,
+        "roc_auc": 0.5,
+        "probability_min": 0.5001680254936218,
+        "probability_max": 0.5001680254936218,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931352288026853,
+        "roc_auc": 0.5,
+        "probability_min": 0.5001680254936218,
+        "probability_max": 0.5001680254936218,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4039545676787517,
+      "elapsed_seconds": 293.8829914960079,
+      "epoch_seconds_including_evaluation": 10.863301077974029
+    },
+    {
+      "epoch": 27,
+      "optimizer_updates": 3375,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931473880997178,
+        "roc_auc": 0.5,
+        "probability_min": 0.4996778666973114,
+        "probability_max": 0.4996778666973114,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931704098962687,
+        "roc_auc": 0.5,
+        "probability_min": 0.4996778666973114,
+        "probability_max": 0.4996778666973114,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.404055575391591,
+      "elapsed_seconds": 304.7435942150187,
+      "epoch_seconds_including_evaluation": 10.851648857002147
+    },
+    {
+      "epoch": 28,
+      "optimizer_updates": 3500,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.693147563369254,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004374980926514,
+        "probability_max": 0.5004374980926514,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931162968309196,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004374980926514,
+        "probability_max": 0.5004374980926514,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4040737805435675,
+      "elapsed_seconds": 315.6259701990057,
+      "epoch_seconds_including_evaluation": 10.870778591022827
+    },
+    {
+      "epoch": 29,
+      "optimizer_updates": 3625,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471818798566,
+        "roc_auc": 0.5,
+        "probability_min": 0.4999743103981018,
+        "probability_max": 0.4999743103981018,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931490178300739,
+        "roc_auc": 0.5,
+        "probability_min": 0.4999743103981018,
+        "probability_max": 0.4999743103981018,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.404167296619829,
+      "elapsed_seconds": 326.49126206501387,
+      "epoch_seconds_including_evaluation": 10.855666172981728
+    },
+    {
+      "epoch": 30,
+      "optimizer_updates": 3750,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931474248907543,
+        "roc_auc": 0.5,
+        "probability_min": 0.5003495216369629,
+        "probability_max": 0.5003495216369629,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931224457403639,
+        "roc_auc": 0.5,
+        "probability_min": 0.5003495216369629,
+        "probability_max": 0.5003495216369629,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.404200424572581,
+      "elapsed_seconds": 337.34450655500405,
+      "epoch_seconds_including_evaluation": 10.842367086035665
+    },
+    {
+      "epoch": 31,
+      "optimizer_updates": 3875,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931476592617967,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004892349243164,
+        "probability_max": 0.5004892349243164,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931126952613805,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004892349243164,
+        "probability_max": 0.5004892349243164,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4043118726753594,
+      "elapsed_seconds": 348.2115658900002,
+      "epoch_seconds_including_evaluation": 10.857196423981804
+    },
+    {
+      "epoch": 32,
+      "optimizer_updates": 4000,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931504039289892,
+        "roc_auc": 0.5,
+        "probability_min": 0.501269519329071,
+        "probability_max": 0.501269519329071,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.693059675419304,
+        "roc_auc": 0.5,
+        "probability_min": 0.501269519329071,
+        "probability_max": 0.501269519329071,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.404376733989664,
+      "elapsed_seconds": 359.09124376403634,
+      "epoch_seconds_including_evaluation": 10.869509530020878
+    },
+    {
+      "epoch": 33,
+      "optimizer_updates": 4125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931485025236104,
+        "roc_auc": 0.5,
+        "probability_min": 0.49918699264526367,
+        "probability_max": 0.49918699264526367,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6932066055004357,
+        "roc_auc": 0.5,
+        "probability_min": 0.49918699264526367,
+        "probability_max": 0.49918699264526367,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.404654550665623,
+      "elapsed_seconds": 369.95836377801606,
+      "epoch_seconds_including_evaluation": 10.856433145003393
+    },
+    {
+      "epoch": 34,
+      "optimizer_updates": 4250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.693153144314566,
+        "roc_auc": 0.5,
+        "probability_min": 0.5017268061637878,
+        "probability_max": 0.5017268061637878,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6930297347434057,
+        "roc_auc": 0.5,
+        "probability_min": 0.5017268061637878,
+        "probability_max": 0.5017268061637878,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.404669316149742,
+      "elapsed_seconds": 380.8193637339864,
+      "epoch_seconds_including_evaluation": 10.850482928974088
+    },
+    {
+      "epoch": 35,
+      "optimizer_updates": 4375,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931486525114228,
+        "roc_auc": 0.5,
+        "probability_min": 0.5008578896522522,
+        "probability_max": 0.5008578896522522,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6930873419374444,
+        "roc_auc": 0.5,
+        "probability_min": 0.5008578896522522,
+        "probability_max": 0.5008578896522522,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4046192628996006,
+      "elapsed_seconds": 391.6916208580369,
+      "epoch_seconds_including_evaluation": 10.862072927993722
+    },
+    {
+      "epoch": 36,
+      "optimizer_updates": 4500,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931487856849564,
+        "roc_auc": 0.5,
+        "probability_min": 0.5008958578109741,
+        "probability_max": 0.5008958578109741,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.693084761644888,
+        "roc_auc": 0.5,
+        "probability_min": 0.5008958578109741,
+        "probability_max": 0.5008958578109741,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.404618364774535,
+      "elapsed_seconds": 402.55244872299954,
+      "epoch_seconds_including_evaluation": 10.85007389698876
+    },
+    {
+      "epoch": 37,
+      "optimizer_updates": 4625,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.693148002598426,
+        "roc_auc": 0.5,
+        "probability_min": 0.5006411075592041,
+        "probability_max": 0.5006411075592041,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931021847530856,
+        "roc_auc": 0.5,
+        "probability_min": 0.5006411075592041,
+        "probability_max": 0.5006411075592041,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.404611212395461,
+      "elapsed_seconds": 413.4242508400348,
+      "epoch_seconds_including_evaluation": 10.86037084297277
+    },
+    {
+      "epoch": 38,
+      "optimizer_updates": 4750,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471905039127,
+        "roc_auc": 0.5,
+        "probability_min": 0.4999294877052307,
+        "probability_max": 0.4999294877052307,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931522297826125,
+        "roc_auc": 0.5,
+        "probability_min": 0.4999294877052307,
+        "probability_max": 0.4999294877052307,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.404598202716072,
+      "elapsed_seconds": 424.29030459199566,
+      "epoch_seconds_including_evaluation": 10.856487215030938
+    },
+    {
+      "epoch": 39,
+      "optimizer_updates": 4875,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931475469639538,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004280209541321,
+        "probability_max": 0.5004280209541321,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931169577256265,
+        "roc_auc": 0.5,
+        "probability_min": 0.5004280209541321,
+        "probability_max": 0.5004280209541321,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4046057690348537,
+      "elapsed_seconds": 435.1566772360238,
+      "epoch_seconds_including_evaluation": 10.856078732991591
+    },
+    {
+      "epoch": 40,
+      "optimizer_updates": 5000,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931473812828018,
+        "roc_auc": 0.5,
+        "probability_min": 0.5003167986869812,
+        "probability_max": 0.5003167986869812,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931247407336092,
+        "roc_auc": 0.5,
+        "probability_min": 0.5003167986869812,
+        "probability_max": 0.5003167986869812,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4046031584158305,
+      "elapsed_seconds": 446.0190697470098,
+      "epoch_seconds_including_evaluation": 10.851781353005208
+    },
+    {
+      "epoch": 41,
+      "optimizer_updates": 5125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931484425488809,
+        "roc_auc": 0.5,
+        "probability_min": 0.5007943511009216,
+        "probability_max": 0.5007943511009216,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6930916728757733,
+        "roc_auc": 0.5,
+        "probability_min": 0.5007943511009216,
+        "probability_max": 0.5007943511009216,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4046117323238594,
+      "elapsed_seconds": 456.88833353703376,
+      "epoch_seconds_including_evaluation": 10.85799299296923
+    },
+    {
+      "epoch": 42,
+      "optimizer_updates": 5250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931473454991388,
+        "roc_auc": 0.5,
+        "probability_min": 0.5002871751785278,
+        "probability_max": 0.5002871751785278,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.6931268220441233,
+        "roc_auc": 0.5,
+        "probability_min": 0.5002871751785278,
+        "probability_max": 0.5002871751785278,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.404602193031268,
+      "elapsed_seconds": 467.75708600203507,
+      "epoch_seconds_including_evaluation": 10.858074260002468
+    },
+    {
+      "epoch": 43,
+      "optimizer_updates": 5375,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931472480086525,
+        "roc_auc": 0.5,
+        "probability_min": 0.499816358089447,
+        "probability_max": 0.499816358089447,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.69316037228445,
+        "roc_auc": 0.5,
+        "probability_min": 0.499816358089447,
+        "probability_max": 0.499816358089447,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4045969419111506,
+      "elapsed_seconds": 478.62351003900403,
+      "epoch_seconds_including_evaluation": 10.855040650989395
+    },
+    {
+      "epoch": 44,
+      "optimizer_updates": 5500,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931474172843054,
+        "roc_auc": 0.5,
+        "probability_min": 0.49965596199035645,
+        "probability_max": 0.49965596199035645,
+        "probability_std": 1.4901161193847656e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931720045379416,
+        "roc_auc": 0.5,
+        "probability_min": 0.49965596199035645,
+        "probability_max": 0.49965596199035645,
+        "probability_std": 8.940696716308594e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4045964679432204,
+      "elapsed_seconds": 489.49053702002857,
+      "epoch_seconds_including_evaluation": 10.857229025044944
+    },
+    {
+      "epoch": 45,
+      "optimizer_updates": 5625,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931472248800947,
+        "roc_auc": 0.5,
+        "probability_min": 0.49985113739967346,
+        "probability_max": 0.49985113739967346,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931578635942458,
+        "roc_auc": 0.5,
+        "probability_min": 0.49985113739967346,
+        "probability_max": 0.49985113739967346,
+        "probability_std": 2.9802322387695312e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4046005173872493,
+      "elapsed_seconds": 500.34625230298843,
+      "epoch_seconds_including_evaluation": 10.84461759304395
+    },
+    {
+      "epoch": 46,
+      "optimizer_updates": 5750,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471922014777,
+        "roc_auc": 0.5,
+        "probability_min": 0.4999237060546875,
+        "probability_max": 0.4999237060546875,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931526446754782,
+        "roc_auc": 0.5,
+        "probability_min": 0.4999237060546875,
+        "probability_max": 0.4999237060546875,
+        "probability_std": 0.0,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.404602973233972,
+      "elapsed_seconds": 511.2159609849914,
+      "epoch_seconds_including_evaluation": 10.859440529951826
+    },
+    {
+      "epoch": 47,
+      "optimizer_updates": 5875,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471852679731,
+        "roc_auc": 0.5,
+        "probability_min": 0.49995148181915283,
+        "probability_max": 0.49995148181915283,
+        "probability_std": 8.940696716308594e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931506527006418,
+        "roc_auc": 0.5,
+        "probability_min": 0.49995148181915283,
+        "probability_max": 0.49995148181915283,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4046054606108194,
+      "elapsed_seconds": 522.071050197992,
+      "epoch_seconds_including_evaluation": 10.842207764973864
+    },
+    {
+      "epoch": 48,
+      "optimizer_updates": 6000,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471883044065,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000622272491455,
+        "probability_max": 0.5000622272491455,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.693142741130311,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000622272491455,
+        "probability_max": 0.5000622272491455,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4046135937168756,
+      "elapsed_seconds": 532.9341764790006,
+      "epoch_seconds_including_evaluation": 10.851738377998117
+    },
+    {
+      "epoch": 49,
+      "optimizer_updates": 6125,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931471865478596,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000547170639038,
+        "probability_max": 0.5000547170639038,
+        "probability_std": 1.1920928955078125e-07,
+        "predicted_positive_fraction": 1.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.5178666666666667,
+        "bce": 0.693143276101677,
+        "roc_auc": 0.5,
+        "probability_min": 0.5000547170639038,
+        "probability_max": 0.5000547170639038,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 1.0
+      },
+      "weight_change_l2": 2.4046214303523956,
+      "elapsed_seconds": 543.8080298200366,
+      "epoch_seconds_including_evaluation": 10.86394118500175
+    },
+    {
+      "epoch": 50,
+      "optimizer_updates": 6250,
+      "train": {
+        "shots": 2000,
+        "accuracy": 0.5,
+        "bce": 0.6931472026072503,
+        "roc_auc": 0.5,
+        "probability_min": 0.49989500641822815,
+        "probability_max": 0.49989500641822815,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "validation": {
+        "shots": 3750,
+        "accuracy": 0.4821333333333333,
+        "bce": 0.6931547061486711,
+        "roc_auc": 0.5,
+        "probability_min": 0.49989500641822815,
+        "probability_max": 0.49989500641822815,
+        "probability_std": 5.960464477539063e-08,
+        "predicted_positive_fraction": 0.0
+      },
+      "weight_change_l2": 2.4046283857534325,
+      "elapsed_seconds": 554.686537889007,
+      "epoch_seconds_including_evaluation": 10.867615388007835
+    }
+  ],
+  "status": "complete"
+}

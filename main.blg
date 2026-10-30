@@ -1,0 +1,8 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[35] biber-darwin:340> INFO - === Thu Oct  1, 2026, 12:56:19
+[41] Utils.pm:287> DEBUG - Looking for file 'main.bcf' via kpsewhich
+[131] Utils.pm:293> DEBUG - kpsewhich returned error:  ()
+[131] Utils.pm:312> DEBUG - Could not find 'main.bcf' via kpsewhich
+[131] Utils.pm:410> ERROR - Cannot find 'main.bcf'!
+[131] Biber.pm:136> INFO - ERRORS: 1

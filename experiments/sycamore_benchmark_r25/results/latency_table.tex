@@ -1,0 +1,48 @@
+\begingroup\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{p{0.30\linewidth}rrr}
+\caption{Batch-one latency in microseconds. Collection results pool raw timings across acquisitions; see per-sample CSV for variation.}\label{tab:evaluation_latency}\\
+\hline
+Model / device / scope & Median & P95 & P99 \\
+\hline\endfirsthead
+Model / device / scope & Median & P95 & P99 \\
+\hline\endhead
+\raggedright fresh/batch\_\allowbreak 64/baseline / /GPU:0 / host / model\_\allowbreak only & 4704.1 & 5319.6 & 5521.3 \\
+\raggedright fresh/batch\_\allowbreak 64/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4638.5 & 5039 & 5298.8 \\
+\raggedright fresh/batch\_\allowbreak 64/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4847.2 & 5321.3 & 5519.3 \\
+\raggedright fresh/batch\_\allowbreak 64/pruned64 / /GPU:0 / host / model\_\allowbreak only & 4594.8 & 5234.6 & 5404.4 \\
+\raggedright fresh/batch\_\allowbreak 64/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4560.4 & 4930.5 & 5196.4 \\
+\raggedright fresh/batch\_\allowbreak 64/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4720.2 & 5276.9 & 5440.7 \\
+\raggedright fresh/batch\_\allowbreak 64/mixed64 / /GPU:0 / host / model\_\allowbreak only & 4772.6 & 5387.3 & 5564.8 \\
+\raggedright fresh/batch\_\allowbreak 64/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4687.7 & 5361.4 & 5523 \\
+\raggedright fresh/batch\_\allowbreak 64/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4890 & 5433.9 & 5616.2 \\
+\raggedright fresh/batch\_\allowbreak 128/baseline / /GPU:0 / host / model\_\allowbreak only & 4622.9 & 5251.4 & 5446.7 \\
+\raggedright fresh/batch\_\allowbreak 128/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4596.3 & 5010.4 & 5256.8 \\
+\raggedright fresh/batch\_\allowbreak 128/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4779.8 & 5241.2 & 5442.9 \\
+\raggedright fresh/batch\_\allowbreak 128/pruned64 / /GPU:0 / host / model\_\allowbreak only & 4601.8 & 5209.9 & 5419.6 \\
+\raggedright fresh/batch\_\allowbreak 128/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4558.9 & 4931.7 & 5175.6 \\
+\raggedright fresh/batch\_\allowbreak 128/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4726.2 & 5277.5 & 5442.3 \\
+\raggedright fresh/batch\_\allowbreak 128/mixed64 / /GPU:0 / host / model\_\allowbreak only & 4908.6 & 5524.1 & 5706.5 \\
+\raggedright fresh/batch\_\allowbreak 128/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4831.6 & 5522.4 & 5683.9 \\
+\raggedright fresh/batch\_\allowbreak 128/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 5011.1 & 5547.1 & 5761 \\
+\raggedright fixed/batch\_\allowbreak 64/baseline / /GPU:0 / host / model\_\allowbreak only & 4542.6 & 5179.9 & 5359.2 \\
+\raggedright fixed/batch\_\allowbreak 64/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4500.9 & 4888.1 & 5136.5 \\
+\raggedright fixed/batch\_\allowbreak 64/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4663.6 & 5155.5 & 5357.3 \\
+\raggedright fixed/batch\_\allowbreak 64/pruned64 / /GPU:0 / host / model\_\allowbreak only & 4587.1 & 5235.4 & 5421.6 \\
+\raggedright fixed/batch\_\allowbreak 64/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4560.9 & 4930.4 & 5169.1 \\
+\raggedright fixed/batch\_\allowbreak 64/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4723.2 & 5279.9 & 5454.6 \\
+\raggedright fixed/batch\_\allowbreak 64/mixed64 / /GPU:0 / host / model\_\allowbreak only & 4766.1 & 5390.6 & 5569.5 \\
+\raggedright fixed/batch\_\allowbreak 64/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4710.9 & 5357.9 & 5532.6 \\
+\raggedright fixed/batch\_\allowbreak 64/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4896.4 & 5484.6 & 5688.8 \\
+\raggedright fixed/batch\_\allowbreak 128/baseline / /GPU:0 / host / model\_\allowbreak only & 4600.1 & 5238.3 & 5418.7 \\
+\raggedright fixed/batch\_\allowbreak 128/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4553.3 & 5005.3 & 5238 \\
+\raggedright fixed/batch\_\allowbreak 128/baseline / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4727.2 & 5297.9 & 5443.2 \\
+\raggedright fixed/batch\_\allowbreak 128/pruned64 / /GPU:0 / host / model\_\allowbreak only & 4603 & 5260.5 & 5421.8 \\
+\raggedright fixed/batch\_\allowbreak 128/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4554.8 & 4950.4 & 5195.6 \\
+\raggedright fixed/batch\_\allowbreak 128/pruned64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4724.8 & 5198.1 & 5401.9 \\
+\raggedright fixed/batch\_\allowbreak 128/mixed64 / /GPU:0 / host / model\_\allowbreak only & 4781.3 & 5381.5 & 5563.1 \\
+\raggedright fixed/batch\_\allowbreak 128/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak prediction & 4700.8 & 5360.3 & 5542.8 \\
+\raggedright fixed/batch\_\allowbreak 128/mixed64 / /GPU:0 / host / detector\_\allowbreak to\_\allowbreak gate & 4891.2 & 5442.1 & 5647.9 \\
+\hline
+\end{longtable}
+\endgroup

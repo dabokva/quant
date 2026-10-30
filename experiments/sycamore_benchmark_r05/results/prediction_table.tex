@@ -1,0 +1,36 @@
+\begingroup\small
+\setlength{\tabcolsep}{4pt}
+\begin{longtable}{p{0.30\linewidth}rrrr}
+\caption{Held-out prediction results. Errors are per complete shot.}\label{tab:evaluation_prediction_results}\\
+\hline
+Model / predictor & Errors & $P_{\rm fail}$ & BCE & AUC \\
+\hline\endfirsthead
+Model / predictor & Errors & $P_{\rm fail}$ & BCE & AUC \\
+\hline\endhead
+\raggedright fresh/batch\_\allowbreak 64/baseline / neural & 166652 & 0.41925 & 0.65007 & 0.63599 \\
+\raggedright fresh/batch\_\allowbreak 64/baseline / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fresh/batch\_\allowbreak 64/pruned64 / neural & 161676 & 0.40673 & 0.63887 & 0.65014 \\
+\raggedright fresh/batch\_\allowbreak 64/pruned64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fresh/batch\_\allowbreak 64/mixed64 / neural & 161666 & 0.40671 & 0.63886 & 0.65015 \\
+\raggedright fresh/batch\_\allowbreak 64/mixed64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fresh/batch\_\allowbreak 128/baseline / neural & 164629 & 0.41416 & 0.64595 & 0.63732 \\
+\raggedright fresh/batch\_\allowbreak 128/baseline / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fresh/batch\_\allowbreak 128/pruned64 / neural & 162294 & 0.40829 & 0.64045 & 0.64697 \\
+\raggedright fresh/batch\_\allowbreak 128/pruned64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fresh/batch\_\allowbreak 128/mixed64 / neural & 162281 & 0.40825 & 0.64045 & 0.64697 \\
+\raggedright fresh/batch\_\allowbreak 128/mixed64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fixed/batch\_\allowbreak 64/baseline / neural & 149834 & 0.37694 & 0.61873 & 0.69083 \\
+\raggedright fixed/batch\_\allowbreak 64/baseline / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fixed/batch\_\allowbreak 64/pruned64 / neural & 149792 & 0.37684 & 0.61841 & 0.69037 \\
+\raggedright fixed/batch\_\allowbreak 64/pruned64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fixed/batch\_\allowbreak 64/mixed64 / neural & 149801 & 0.37686 & 0.61839 & 0.69036 \\
+\raggedright fixed/batch\_\allowbreak 64/mixed64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fixed/batch\_\allowbreak 128/baseline / neural & 158840 & 0.3996 & 0.63606 & 0.66141 \\
+\raggedright fixed/batch\_\allowbreak 128/baseline / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fixed/batch\_\allowbreak 128/pruned64 / neural & 158698 & 0.39924 & 0.63685 & 0.66175 \\
+\raggedright fixed/batch\_\allowbreak 128/pruned64 / constant & 177782 & 0.44725 & -- & -- \\
+\raggedright fixed/batch\_\allowbreak 128/mixed64 / neural & 158699 & 0.39924 & 0.63686 & 0.66174 \\
+\raggedright fixed/batch\_\allowbreak 128/mixed64 / constant & 177782 & 0.44725 & -- & -- \\
+\hline
+\end{longtable}
+\endgroup

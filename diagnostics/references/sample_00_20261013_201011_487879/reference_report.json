@@ -1,0 +1,802 @@
+{
+  "source_run": "/work/experiments/sycamore_benchmark_fixed120k/fresh/batch_64/baseline/collection_gcn_20261013_152010_212105",
+  "diagnostic_directory": "/work/diagnostics/generalization/sample_00_20261013_162810_675250",
+  "sample": "sample_00",
+  "subset": "validation",
+  "shots": 3750,
+  "prediction_directory": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted",
+  "validation_indices_sha256": "9ddc09b19fe2e55b87a7a895e34e5f4614b9294e0c22a9abaf14a714c74c7e95",
+  "actual_labels_sha256": "c4abdaf3c5e1f632f037ba7854e206997a78237fdc901d5fe3398e045bcfa258",
+  "neural_epoch": 20,
+  "neural": {
+    "shots": 3750,
+    "incorrect": 1832,
+    "accuracy": 0.5114666666666667,
+    "error_rate": 0.4885333333333333,
+    "error_rate_ci": [
+      0.47241537827621527,
+      0.5046691767080222
+    ],
+    "error_rate_upper": 0.5020965311187016,
+    "confidence": 0.95,
+    "interval_method": "Clopper-Pearson; independent shots",
+    "positive_prevalence": 0.5178666666666667,
+    "confusion": {
+      "00": 109,
+      "01": 1699,
+      "10": 133,
+      "11": 1809
+    },
+    "bce": 0.6935031068429857,
+    "bce_clipping_epsilon": 1e-07,
+    "brier": 0.25017685854684213,
+    "roc_auc": 0.4915514522935027,
+    "reliability": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "shots": 242,
+        "mean_probability": 0.4529351190594602,
+        "positive_fraction": 0.5495867768595041
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "shots": 3508,
+        "mean_probability": 0.516595394591649,
+        "positive_fraction": 0.515678449258837
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "shots": 0,
+        "mean_probability": null,
+        "positive_fraction": null
+      }
+    ],
+    "ece": 0.00709502544403075
+  },
+  "always_zero": {
+    "shots": 3750,
+    "incorrect": 1942,
+    "accuracy": 0.4821333333333333,
+    "error_rate": 0.5178666666666667,
+    "error_rate_ci": [
+      0.5017318384440392,
+      0.5339736222809659
+    ],
+    "error_rate_upper": 0.5314079013794959,
+    "confidence": 0.95,
+    "interval_method": "Clopper-Pearson; independent shots",
+    "positive_prevalence": 0.5178666666666667,
+    "confusion": {
+      "00": 1808,
+      "01": 0,
+      "10": 1942,
+      "11": 0
+    }
+  },
+  "always_one": {
+    "shots": 3750,
+    "incorrect": 1808,
+    "accuracy": 0.5178666666666667,
+    "error_rate": 0.48213333333333336,
+    "error_rate_ci": [
+      0.46602637771903405,
+      0.4982681615559607
+    ],
+    "error_rate_upper": 0.4956951807775499,
+    "confidence": 0.95,
+    "interval_method": "Clopper-Pearson; independent shots",
+    "positive_prevalence": 0.5178666666666667,
+    "confusion": {
+      "00": 0,
+      "01": 1808,
+      "10": 0,
+      "11": 1942
+    }
+  },
+  "references": {
+    "dem_correlations/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_correlations/belief_matching.b8",
+      "format": "b8",
+      "sha256": "9e244692d10d453ad61132723caf9de485656806e9b33a6e5e1604945e140337",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1594,
+        "accuracy": 0.5749333333333333,
+        "error_rate": 0.42506666666666665,
+        "error_rate_ci": [
+          0.4091746311710408,
+          0.4410756143671729
+        ],
+        "error_rate_upper": 0.43851841373162803,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1040,
+          "01": 768,
+          "10": 826,
+          "11": 1116
+        }
+      },
+      "neural_only_wrong": 1065,
+      "reference_only_wrong": 827
+    },
+    "dem_correlations/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_correlations/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "1cec8a8bc4369664d156eacd3e5c114193cc021917b82c03e8dddcbcaecdd03a",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1648,
+        "accuracy": 0.5605333333333333,
+        "error_rate": 0.43946666666666667,
+        "error_rate_ci": [
+          0.42350041534386634,
+          0.4555273589761915
+        ],
+        "error_rate_upper": 0.45296296653323687,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 997,
+          "01": 811,
+          "10": 837,
+          "11": 1105
+        }
+      },
+      "neural_only_wrong": 1021,
+      "reference_only_wrong": 837
+    },
+    "dem_correlations/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_correlations/harmony.b8",
+      "format": "b8",
+      "sha256": "9aa3a84edf297c26fa84d6de347c8be4e22b7b37991c70570c157e0461f34c7e",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1626,
+        "accuracy": 0.5664,
+        "error_rate": 0.4336,
+        "error_rate_ci": [
+          0.4176623387657298,
+          0.449641256804181
+        ],
+        "error_rate_upper": 0.4470795299823064,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1009,
+          "01": 799,
+          "10": 827,
+          "11": 1115
+        }
+      },
+      "neural_only_wrong": 1018,
+      "reference_only_wrong": 812
+    },
+    "dem_rl_isolated_belief_matching/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_belief_matching/belief_matching.b8",
+      "format": "b8",
+      "sha256": "5f87d940d954a0f5be7e742bd9b0972315b4f967051022eb03b363ca6729fba2",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1574,
+        "accuracy": 0.5802666666666667,
+        "error_rate": 0.41973333333333335,
+        "error_rate_ci": [
+          0.4038722593761207,
+          0.43571964297759525
+        ],
+        "error_rate_upper": 0.43316566398125456,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1068,
+          "01": 740,
+          "10": 834,
+          "11": 1108
+        }
+      },
+      "neural_only_wrong": 1085,
+      "reference_only_wrong": 827
+    },
+    "dem_rl_isolated_belief_matching/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_belief_matching/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "e63960f8c9e749bb7c737db9808a9d0cd97ec2e64ac43f1d17d7849169200ebd",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1646,
+        "accuracy": 0.5610666666666666,
+        "error_rate": 0.43893333333333334,
+        "error_rate_ci": [
+          0.42296958793456924,
+          0.45499235193485654
+        ],
+        "error_rate_upper": 0.45242818685532765,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1030,
+          "01": 778,
+          "10": 868,
+          "11": 1074
+        }
+      },
+      "neural_only_wrong": 1047,
+      "reference_only_wrong": 861
+    },
+    "dem_rl_isolated_belief_matching/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_belief_matching/harmony.b8",
+      "format": "b8",
+      "sha256": "7300c3ce1f817898ff9ad3de3693c8eab0276ad4fd1a5f13506528848e3c946f",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1638,
+        "accuracy": 0.5631999999999999,
+        "error_rate": 0.4368,
+        "error_rate_ci": [
+          0.420846464494731,
+          0.4528521376090764
+        ],
+        "error_rate_upper": 0.4502889118903975,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1015,
+          "01": 793,
+          "10": 845,
+          "11": 1097
+        }
+      },
+      "neural_only_wrong": 1031,
+      "reference_only_wrong": 837
+    },
+    "dem_rl_isolated_correlated_matching/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_correlated_matching/belief_matching.b8",
+      "format": "b8",
+      "sha256": "3d57dba7cd8f20fd70c52d293d6668bd35337dd9210609ff35a1b640ed78ef2b",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1585,
+        "accuracy": 0.5773333333333333,
+        "error_rate": 0.4226666666666667,
+        "error_rate_ci": [
+          0.40678833029504496,
+          0.43866566075136165
+        ],
+        "error_rate_upper": 0.43610987233972426,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1061,
+          "01": 747,
+          "10": 838,
+          "11": 1104
+        }
+      },
+      "neural_only_wrong": 1072,
+      "reference_only_wrong": 825
+    },
+    "dem_rl_isolated_correlated_matching/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_correlated_matching/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "417befc619665b94d9fecca7b233a97054a152f5b6d8af8b738e160dafc2749d",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1628,
+        "accuracy": 0.5658666666666667,
+        "error_rate": 0.4341333333333333,
+        "error_rate_ci": [
+          0.41819297970950375,
+          0.4501764502729184
+        ],
+        "error_rate_upper": 0.4476144661375961,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1011,
+          "01": 797,
+          "10": 831,
+          "11": 1111
+        }
+      },
+      "neural_only_wrong": 1028,
+      "reference_only_wrong": 824
+    },
+    "dem_rl_isolated_correlated_matching/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_correlated_matching/harmony.b8",
+      "format": "b8",
+      "sha256": "a84a04f401043931140a9a287b2728240326776a3e0bae85b07768c6b22dfd58",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1556,
+        "accuracy": 0.5850666666666666,
+        "error_rate": 0.4149333333333333,
+        "error_rate_ci": [
+          0.39910174258470316,
+          0.430897651324398
+        ],
+        "error_rate_upper": 0.4283468316418582,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1053,
+          "01": 755,
+          "10": 801,
+          "11": 1141
+        }
+      },
+      "neural_only_wrong": 1067,
+      "reference_only_wrong": 791
+    },
+    "dem_rl_isolated_harmony/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_harmony/belief_matching.b8",
+      "format": "b8",
+      "sha256": "d0f33589e063723d15ec1212f377a91290a1e33fd3e1e500d5a0a60d81965714",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1577,
+        "accuracy": 0.5794666666666667,
+        "error_rate": 0.4205333333333333,
+        "error_rate_ci": [
+          0.404667494740063,
+          0.4365231590607328
+        ],
+        "error_rate_upper": 0.43396867748009654,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1053,
+          "01": 755,
+          "10": 822,
+          "11": 1120
+        }
+      },
+      "neural_only_wrong": 1065,
+      "reference_only_wrong": 810
+    },
+    "dem_rl_isolated_harmony/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_harmony/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "f604389fb090c0171adfe2679f2ebd57607be042126e4ad126bee6e69544caa5",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1604,
+        "accuracy": 0.5722666666666667,
+        "error_rate": 0.42773333333333335,
+        "error_rate_ci": [
+          0.41182652373184037,
+          0.4437528935724204
+        ],
+        "error_rate_upper": 0.4411941956161867,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1026,
+          "01": 782,
+          "10": 822,
+          "11": 1120
+        }
+      },
+      "neural_only_wrong": 1038,
+      "reference_only_wrong": 810
+    },
+    "dem_rl_isolated_harmony/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_isolated_harmony/harmony.b8",
+      "format": "b8",
+      "sha256": "25d1bbf06671e05d5b804fd0de16b2716c27d45967ebcd693c9fa2ef26822cca",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1582,
+        "accuracy": 0.5781333333333334,
+        "error_rate": 0.42186666666666667,
+        "error_rate_ci": [
+          0.4059929815458595,
+          0.43786225802443346
+        ],
+        "error_rate_upper": 0.4353069539862132,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1036,
+          "01": 772,
+          "10": 810,
+          "11": 1132
+        }
+      },
+      "neural_only_wrong": 1054,
+      "reference_only_wrong": 804
+    },
+    "dem_rl_shared_belief_matching/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_belief_matching/belief_matching.b8",
+      "format": "b8",
+      "sha256": "276eb6316d8034645e14e937033868f39ce8dd57271a4848518a3a9dfc059f9f",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1594,
+        "accuracy": 0.5749333333333333,
+        "error_rate": 0.42506666666666665,
+        "error_rate_ci": [
+          0.4091746311710408,
+          0.4410756143671729
+        ],
+        "error_rate_upper": 0.43851841373162803,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1058,
+          "01": 750,
+          "10": 844,
+          "11": 1098
+        }
+      },
+      "neural_only_wrong": 1066,
+      "reference_only_wrong": 828
+    },
+    "dem_rl_shared_belief_matching/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_belief_matching/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "1a97edfc87bf9bb2da2b2c4b2a7c7ced5cd37f09d371973871a4c0b56d078c2f",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1629,
+        "accuracy": 0.5656,
+        "error_rate": 0.4344,
+        "error_rate_ci": [
+          0.41845830718752086,
+          0.4504440400026473
+        ],
+        "error_rate_upper": 0.44788192833591317,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1039,
+          "01": 769,
+          "10": 860,
+          "11": 1082
+        }
+      },
+      "neural_only_wrong": 1057,
+      "reference_only_wrong": 854
+    },
+    "dem_rl_shared_belief_matching/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_belief_matching/harmony.b8",
+      "format": "b8",
+      "sha256": "ec6d9cb593d3483a5905923fa71dc0d6b92274ae7c3c7a854033405b9f5b8d41",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1587,
+        "accuracy": 0.5768,
+        "error_rate": 0.4232,
+        "error_rate_ci": [
+          0.40731858638507584,
+          0.4392012389846697
+        ],
+        "error_rate_upper": 0.43664513144633765,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1057,
+          "01": 751,
+          "10": 836,
+          "11": 1106
+        }
+      },
+      "neural_only_wrong": 1075,
+      "reference_only_wrong": 830
+    },
+    "dem_rl_shared_correlated_matching/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_correlated_matching/belief_matching.b8",
+      "format": "b8",
+      "sha256": "c71be5545382d72ba0267986c467816bb9206e1a457ba4e263a015b69a7d68cf",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1603,
+        "accuracy": 0.5725333333333333,
+        "error_rate": 0.42746666666666666,
+        "error_rate_ci": [
+          0.41156131332621493,
+          0.44348518679642457
+        ],
+        "error_rate_upper": 0.44092663517534764,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1060,
+          "01": 748,
+          "10": 855,
+          "11": 1087
+        }
+      },
+      "neural_only_wrong": 1071,
+      "reference_only_wrong": 842
+    },
+    "dem_rl_shared_correlated_matching/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_correlated_matching/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "18e30854b14303a91f284002acbff2021796e8cdeb7830d7978fba22d243c769",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1617,
+        "accuracy": 0.5688,
+        "error_rate": 0.4312,
+        "error_rate_ci": [
+          0.41527468592236405,
+          0.4472326548412944
+        ],
+        "error_rate_upper": 0.44467212309742327,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1038,
+          "01": 770,
+          "10": 847,
+          "11": 1095
+        }
+      },
+      "neural_only_wrong": 1052,
+      "reference_only_wrong": 837
+    },
+    "dem_rl_shared_correlated_matching/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_correlated_matching/harmony.b8",
+      "format": "b8",
+      "sha256": "92d6754fe1f13b5c77beb06ec905ea05616715f8bb0a517dbc47eed18deb5fdd",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1586,
+        "accuracy": 0.5770666666666666,
+        "error_rate": 0.42293333333333333,
+        "error_rate_ci": [
+          0.40705345598180154,
+          0.4389334522256846
+        ],
+        "error_rate_upper": 0.43637750387193597,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1033,
+          "01": 775,
+          "10": 811,
+          "11": 1131
+        }
+      },
+      "neural_only_wrong": 1054,
+      "reference_only_wrong": 808
+    },
+    "dem_rl_shared_harmony/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_harmony/belief_matching.b8",
+      "format": "b8",
+      "sha256": "2e42889e8729f7e5da7d60a7907d37a1785e31e5c12c1e478e7571064f9eec13",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1591,
+        "accuracy": 0.5757333333333333,
+        "error_rate": 0.4242666666666667,
+        "error_rate_ci": [
+          0.40837915513960227,
+          0.44027233889088796
+        ],
+        "error_rate_upper": 0.4377156021857023,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1045,
+          "01": 763,
+          "10": 828,
+          "11": 1114
+        }
+      },
+      "neural_only_wrong": 1058,
+      "reference_only_wrong": 817
+    },
+    "dem_rl_shared_harmony/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_harmony/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "34572470ad9d34cff8878db53d64ef16b785e7f1410748ac2bf92185b1608791",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1605,
+        "accuracy": 0.5720000000000001,
+        "error_rate": 0.428,
+        "error_rate_ci": [
+          0.41209173883325023,
+          0.4440205956537302
+        ],
+        "error_rate_upper": 0.44146175211655087,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1030,
+          "01": 778,
+          "10": 827,
+          "11": 1115
+        }
+      },
+      "neural_only_wrong": 1051,
+      "reference_only_wrong": 824
+    },
+    "dem_rl_shared_harmony/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_rl_shared_harmony/harmony.b8",
+      "format": "b8",
+      "sha256": "858356fc79c61c339a4d7e65dd34fd84470573d2573631862cd079e2c4a0176e",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1584,
+        "accuracy": 0.5776,
+        "error_rate": 0.4224,
+        "error_rate_ci": [
+          0.40652320932600156,
+          0.43839786456051
+        ],
+        "error_rate_upper": 0.4358422368487029,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1044,
+          "01": 764,
+          "10": 820,
+          "11": 1122
+        }
+      },
+      "neural_only_wrong": 1066,
+      "reference_only_wrong": 818
+    },
+    "dem_simple/belief_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_simple/belief_matching.b8",
+      "format": "b8",
+      "sha256": "f3d1c2288ff385c106f14f5b51c75beb1e7e6e4b6386ef3ed840a8af8f2b84de",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1675,
+        "accuracy": 0.5533333333333333,
+        "error_rate": 0.44666666666666666,
+        "error_rate_ci": [
+          0.4306684034303595,
+          0.46274813631386486
+        ],
+        "error_rate_upper": 0.46018096648625945,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 999,
+          "01": 809,
+          "10": 866,
+          "11": 1076
+        }
+      },
+      "neural_only_wrong": 1004,
+      "reference_only_wrong": 847
+    },
+    "dem_simple/correlated_matching.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_simple/correlated_matching.b8",
+      "format": "b8",
+      "sha256": "f23c2962ebdd3940ce90eb84dcc933bde652aa758ec2135e8c21b58160827af6",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1652,
+        "accuracy": 0.5594666666666667,
+        "error_rate": 0.44053333333333333,
+        "error_rate_ci": [
+          0.42456212596987747,
+          0.4565973172622768
+        ],
+        "error_rate_upper": 0.4540324790563361,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1018,
+          "01": 790,
+          "10": 862,
+          "11": 1080
+        }
+      },
+      "neural_only_wrong": 1023,
+      "reference_only_wrong": 843
+    },
+    "dem_simple/harmony.b8": {
+      "path": "/work/data/sample_00/d5_at_q6_5/X/r25/obs_flips_predicted/dem_simple/harmony.b8",
+      "format": "b8",
+      "sha256": "03fe2d326090ceab87254cec16ff7d0c518f1879282f6a55a9aa8aa8989e7c8f",
+      "metrics": {
+        "shots": 3750,
+        "incorrect": 1604,
+        "accuracy": 0.5722666666666667,
+        "error_rate": 0.42773333333333335,
+        "error_rate_ci": [
+          0.41182652373184037,
+          0.4437528935724204
+        ],
+        "error_rate_upper": 0.4411941956161867,
+        "confidence": 0.95,
+        "interval_method": "Clopper-Pearson; independent shots",
+        "positive_prevalence": 0.5178666666666667,
+        "confusion": {
+          "00": 1015,
+          "01": 793,
+          "10": 811,
+          "11": 1131
+        }
+      },
+      "neural_only_wrong": 1037,
+      "reference_only_wrong": 809
+    }
+  },
+  "rejected": {},
+  "skipped": {},
+  "note": "Stored predictions only; no decoding latency measured. Reference rows are assumed to use original acquisition order. File counts alone do not prove alignment. This is an exploratory validation comparison, not a final test evaluation.",
+  "status": "complete"
+}

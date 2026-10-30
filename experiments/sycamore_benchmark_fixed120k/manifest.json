@@ -1,0 +1,178 @@
+{
+  "schema_version": 3,
+  "configuration": {
+    "data_root": "/work/data",
+    "output_root": "/work/experiments/sycamore_benchmark_fixed120k",
+    "configuration": "d5_at_q6_5/X/r25",
+    "expected_samples": 53,
+    "action": "all",
+    "resume": true,
+    "max_hours": null,
+    "random_seed": 73,
+    "split_seed": 73,
+    "training_modes": [
+      "fresh",
+      "fixed"
+    ],
+    "batch_sizes": [
+      64,
+      128
+    ],
+    "device": "gpu",
+    "epochs": 100,
+    "fresh_shots_per_epoch": 120000,
+    "fixed_training_shots": 120000,
+    "calibration_fraction": 0.05,
+    "early_stopping": {
+      "patience": 15,
+      "min_delta": 1e-05
+    },
+    "model": {
+      "hidden_units": 96,
+      "gcn_layers": 3,
+      "dense_units": 128,
+      "dropout": 0.1,
+      "learning_rate": 0.001
+    },
+    "pruning": {
+      "enabled": true,
+      "hidden_units": 64,
+      "dense_units": 64,
+      "dense2_units": 32,
+      "epochs": 20,
+      "learning_rate": 0.0001,
+      "max_val_bce_increase": 0.01,
+      "early_stopping": {
+        "patience": 15,
+        "min_delta": 1e-05
+      }
+    },
+    "mixed_precision": true,
+    "gate": {
+      "target_error": 0.01,
+      "method": "temperature",
+      "alpha": 0.05,
+      "min_accepted": 20
+    },
+    "bootstrap": 2000,
+    "references": {},
+    "reference_format": "b8",
+    "live_dem": null,
+    "benchmark": {
+      "enabled": true,
+      "device": "gpu",
+      "placement": "host",
+      "num_shots": 32,
+      "warmup": 50,
+      "repetitions": 500,
+      "throughput_batch_size": 8,
+      "throughput_repetitions": 5
+    }
+  },
+  "configuration_sha256": "3fa43286d5b3639a884dc9125cca2790b72f285f54fc792ad78430ce0e28e11b",
+  "plan": [
+    {
+      "key": "fresh/batch_64/baseline",
+      "mode": "fresh",
+      "batch_size": 64,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fresh/batch_64/pruned64",
+      "mode": "fresh",
+      "batch_size": 64,
+      "variant": "pruned64",
+      "source": "fresh/batch_64/baseline"
+    },
+    {
+      "key": "fresh/batch_64/mixed64",
+      "mode": "fresh",
+      "batch_size": 64,
+      "variant": "mixed64",
+      "source": "fresh/batch_64/pruned64"
+    },
+    {
+      "key": "fresh/batch_128/baseline",
+      "mode": "fresh",
+      "batch_size": 128,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fresh/batch_128/pruned64",
+      "mode": "fresh",
+      "batch_size": 128,
+      "variant": "pruned64",
+      "source": "fresh/batch_128/baseline"
+    },
+    {
+      "key": "fresh/batch_128/mixed64",
+      "mode": "fresh",
+      "batch_size": 128,
+      "variant": "mixed64",
+      "source": "fresh/batch_128/pruned64"
+    },
+    {
+      "key": "fixed/batch_64/baseline",
+      "mode": "fixed",
+      "batch_size": 64,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fixed/batch_64/pruned64",
+      "mode": "fixed",
+      "batch_size": 64,
+      "variant": "pruned64",
+      "source": "fixed/batch_64/baseline"
+    },
+    {
+      "key": "fixed/batch_64/mixed64",
+      "mode": "fixed",
+      "batch_size": 64,
+      "variant": "mixed64",
+      "source": "fixed/batch_64/pruned64"
+    },
+    {
+      "key": "fixed/batch_128/baseline",
+      "mode": "fixed",
+      "batch_size": 128,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fixed/batch_128/pruned64",
+      "mode": "fixed",
+      "batch_size": 128,
+      "variant": "pruned64",
+      "source": "fixed/batch_128/baseline"
+    },
+    {
+      "key": "fixed/batch_128/mixed64",
+      "mode": "fixed",
+      "batch_size": 128,
+      "variant": "mixed64",
+      "source": "fixed/batch_128/pruned64"
+    }
+  ],
+  "runs": {},
+  "stages": {
+    "fresh/batch_64/baseline/model": {
+      "status": "incomplete",
+      "attempt": 1,
+      "error": "",
+      "elapsed_seconds": 2201.8313456239994
+    }
+  },
+  "invocations": [
+    {
+      "action": "all",
+      "max_hours": null,
+      "started_unix": 1791904807.3421972,
+      "elapsed_seconds": 2201.838327379024,
+      "status": "interrupted"
+    }
+  ],
+  "status": "interrupted"
+}

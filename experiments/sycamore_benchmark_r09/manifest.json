@@ -1,0 +1,617 @@
+{
+  "schema_version": 3,
+  "configuration": {
+    "data_root": "/work/data",
+    "configuration": "d5_at_q6_5/X/r09",
+    "output_root": "/work/experiments/sycamore_benchmark_r09",
+    "expected_samples": 53,
+    "action": "all",
+    "resume": true,
+    "max_hours": null,
+    "random_seed": 73,
+    "split_seed": 73,
+    "training_modes": [
+      "fresh",
+      "fixed"
+    ],
+    "batch_sizes": [
+      64,
+      128
+    ],
+    "device": "gpu",
+    "epochs": 100,
+    "fresh_shots_per_epoch": 120000,
+    "fixed_training_shots": 120000,
+    "calibration_fraction": 0.05,
+    "early_stopping": {
+      "patience": 15,
+      "min_delta": 1e-05
+    },
+    "model": {
+      "hidden_units": 96,
+      "gcn_layers": 3,
+      "dense_units": 128,
+      "dropout": 0.1,
+      "learning_rate": 0.0001
+    },
+    "pruning": {
+      "enabled": true,
+      "hidden_units": 64,
+      "dense_units": 64,
+      "dense2_units": 32,
+      "epochs": 20,
+      "learning_rate": 0.0001,
+      "max_val_bce_increase": 0.01,
+      "early_stopping": {
+        "patience": 15,
+        "min_delta": 1e-05
+      }
+    },
+    "mixed_precision": true,
+    "gate": {
+      "target_error": 0.01,
+      "method": "temperature",
+      "alpha": 0.05,
+      "min_accepted": 20
+    },
+    "bootstrap": 2000,
+    "references": {},
+    "reference_format": "b8",
+    "live_dem": null,
+    "benchmark": {
+      "enabled": true,
+      "device": "gpu",
+      "placement": "host",
+      "num_shots": 32,
+      "warmup": 50,
+      "repetitions": 500,
+      "throughput_batch_size": 8,
+      "throughput_repetitions": 5
+    }
+  },
+  "configuration_sha256": "fa24f15ab347094b732628761c3b39e0956564b4584d6d4f3928aff45f658d77",
+  "plan": [
+    {
+      "key": "fresh/batch_64/baseline",
+      "mode": "fresh",
+      "batch_size": 64,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fresh/batch_64/pruned64",
+      "mode": "fresh",
+      "batch_size": 64,
+      "variant": "pruned64",
+      "source": "fresh/batch_64/baseline"
+    },
+    {
+      "key": "fresh/batch_64/mixed64",
+      "mode": "fresh",
+      "batch_size": 64,
+      "variant": "mixed64",
+      "source": "fresh/batch_64/pruned64"
+    },
+    {
+      "key": "fresh/batch_128/baseline",
+      "mode": "fresh",
+      "batch_size": 128,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fresh/batch_128/pruned64",
+      "mode": "fresh",
+      "batch_size": 128,
+      "variant": "pruned64",
+      "source": "fresh/batch_128/baseline"
+    },
+    {
+      "key": "fresh/batch_128/mixed64",
+      "mode": "fresh",
+      "batch_size": 128,
+      "variant": "mixed64",
+      "source": "fresh/batch_128/pruned64"
+    },
+    {
+      "key": "fixed/batch_64/baseline",
+      "mode": "fixed",
+      "batch_size": 64,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fixed/batch_64/pruned64",
+      "mode": "fixed",
+      "batch_size": 64,
+      "variant": "pruned64",
+      "source": "fixed/batch_64/baseline"
+    },
+    {
+      "key": "fixed/batch_64/mixed64",
+      "mode": "fixed",
+      "batch_size": 64,
+      "variant": "mixed64",
+      "source": "fixed/batch_64/pruned64"
+    },
+    {
+      "key": "fixed/batch_128/baseline",
+      "mode": "fixed",
+      "batch_size": 128,
+      "variant": "baseline",
+      "source": null
+    },
+    {
+      "key": "fixed/batch_128/pruned64",
+      "mode": "fixed",
+      "batch_size": 128,
+      "variant": "pruned64",
+      "source": "fixed/batch_128/baseline"
+    },
+    {
+      "key": "fixed/batch_128/mixed64",
+      "mode": "fixed",
+      "batch_size": 128,
+      "variant": "mixed64",
+      "source": "fixed/batch_128/pruned64"
+    }
+  ],
+  "runs": {
+    "fresh/batch_64/baseline": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fresh/batch_64/baseline/collection_gcn_20261016_000113_337461",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fresh/batch_64/pruned64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fresh/batch_64/pruned64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fresh/batch_64/mixed64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fresh/batch_64/mixed64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fresh/batch_128/baseline": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fresh/batch_128/baseline/collection_gcn_20261016_023129_682997",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fresh/batch_128/pruned64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fresh/batch_128/pruned64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fresh/batch_128/mixed64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fresh/batch_128/mixed64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fixed/batch_64/baseline": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fixed/batch_64/baseline/collection_gcn_20261016_042041_768068",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fixed/batch_64/pruned64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fixed/batch_64/pruned64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fixed/batch_64/mixed64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fixed/batch_64/mixed64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fixed/batch_128/baseline": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fixed/batch_128/baseline/collection_gcn_20261016_065633_800282",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fixed/batch_128/pruned64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fixed/batch_128/pruned64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    },
+    "fixed/batch_128/mixed64": {
+      "path": "/work/experiments/sycamore_benchmark_r09/fixed/batch_128/mixed64/attempt_1",
+      "eligible": true,
+      "status": "eligible",
+      "development_complete": true
+    }
+  },
+  "stages": {
+    "fresh/batch_64/baseline/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 5510.808997405111,
+      "result": "/work/experiments/sycamore_benchmark_r09/fresh/batch_64/baseline/collection_gcn_20261016_000113_337461"
+    },
+    "fresh/batch_64/baseline/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 87.85790293791797,
+      "result": null
+    },
+    "fresh/batch_64/baseline/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 87.52125832403544,
+      "result": null
+    },
+    "fresh/batch_64/pruned64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 2769.8561888140393,
+      "result": "/work/experiments/sycamore_benchmark_r09/fresh/batch_64/pruned64/attempt_1"
+    },
+    "fresh/batch_64/pruned64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 78.35000900900923,
+      "result": null
+    },
+    "fresh/batch_64/pruned64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 79.53742484597024,
+      "result": null
+    },
+    "fresh/batch_64/mixed64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 238.0749793429859,
+      "result": "/work/experiments/sycamore_benchmark_r09/fresh/batch_64/mixed64/attempt_1"
+    },
+    "fresh/batch_64/mixed64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 85.31454150401987,
+      "result": null
+    },
+    "fresh/batch_64/mixed64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 80.11983090394642,
+      "result": null
+    },
+    "fresh/batch_128/baseline/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 3510.581814809004,
+      "result": "/work/experiments/sycamore_benchmark_r09/fresh/batch_128/baseline/collection_gcn_20261016_023129_682997"
+    },
+    "fresh/batch_128/baseline/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 70.43632525997236,
+      "result": null
+    },
+    "fresh/batch_128/baseline/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 70.40593416907359,
+      "result": null
+    },
+    "fresh/batch_128/pruned64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 2526.3650241260184,
+      "result": "/work/experiments/sycamore_benchmark_r09/fresh/batch_128/pruned64/attempt_1"
+    },
+    "fresh/batch_128/pruned64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 55.204183757072315,
+      "result": null
+    },
+    "fresh/batch_128/pruned64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 54.928732139989734,
+      "result": null
+    },
+    "fresh/batch_128/mixed64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 152.8507913829526,
+      "result": "/work/experiments/sycamore_benchmark_r09/fresh/batch_128/mixed64/attempt_1"
+    },
+    "fresh/batch_128/mixed64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 55.97990617295727,
+      "result": null
+    },
+    "fresh/batch_128/mixed64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 55.394757914938964,
+      "result": null
+    },
+    "fixed/batch_64/baseline/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 5235.270216518082,
+      "result": "/work/experiments/sycamore_benchmark_r09/fixed/batch_64/baseline/collection_gcn_20261016_042041_768068"
+    },
+    "fixed/batch_64/baseline/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 88.01841133204289,
+      "result": null
+    },
+    "fixed/batch_64/baseline/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 86.61097291007172,
+      "result": null
+    },
+    "fixed/batch_64/pruned64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 3391.0654148230096,
+      "result": "/work/experiments/sycamore_benchmark_r09/fixed/batch_64/pruned64/attempt_1"
+    },
+    "fixed/batch_64/pruned64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 76.64761269500013,
+      "result": null
+    },
+    "fixed/batch_64/pruned64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 78.22701525792945,
+      "result": null
+    },
+    "fixed/batch_64/mixed64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 232.37223746301606,
+      "result": "/work/experiments/sycamore_benchmark_r09/fixed/batch_64/mixed64/attempt_1"
+    },
+    "fixed/batch_64/mixed64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 81.1620630659163,
+      "result": null
+    },
+    "fixed/batch_64/mixed64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 82.48477661795914,
+      "result": null
+    },
+    "fixed/batch_128/baseline/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 3070.789627130027,
+      "result": "/work/experiments/sycamore_benchmark_r09/fixed/batch_128/baseline/collection_gcn_20261016_065633_800282"
+    },
+    "fixed/batch_128/baseline/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 70.95219914603513,
+      "result": null
+    },
+    "fixed/batch_128/baseline/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 70.23963507602457,
+      "result": null
+    },
+    "fixed/batch_128/pruned64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 2362.1995240999386,
+      "result": "/work/experiments/sycamore_benchmark_r09/fixed/batch_128/pruned64/attempt_1"
+    },
+    "fixed/batch_128/pruned64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 56.172277155914344,
+      "result": null
+    },
+    "fixed/batch_128/pruned64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 55.12619941693265,
+      "result": null
+    },
+    "fixed/batch_128/mixed64/model": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 175.83287128305528,
+      "result": "/work/experiments/sycamore_benchmark_r09/fixed/batch_128/mixed64/attempt_1"
+    },
+    "fixed/batch_128/mixed64/validation": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 112.37526513205376,
+      "result": null
+    },
+    "fixed/batch_128/mixed64/gate": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 56.52382911799941,
+      "result": null
+    },
+    "freeze": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 4.076939324964769,
+      "result": null
+    },
+    "fresh/batch_64/baseline/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 171.1085542520741,
+      "result": null
+    },
+    "fresh/batch_64/baseline/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 699.0382067109458,
+      "result": null
+    },
+    "fresh/batch_64/pruned64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 197.58424286800437,
+      "result": null
+    },
+    "fresh/batch_64/pruned64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 657.9992799269967,
+      "result": null
+    },
+    "fresh/batch_64/mixed64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 158.29511509102304,
+      "result": null
+    },
+    "fresh/batch_64/mixed64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 679.6899310488952,
+      "result": null
+    },
+    "fresh/batch_128/baseline/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 133.95693255891092,
+      "result": null
+    },
+    "fresh/batch_128/baseline/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 662.9063591960585,
+      "result": null
+    },
+    "fresh/batch_128/pruned64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 104.65591790305916,
+      "result": null
+    },
+    "fresh/batch_128/pruned64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 651.4161638339283,
+      "result": null
+    },
+    "fresh/batch_128/mixed64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 105.81221823301166,
+      "result": null
+    },
+    "fresh/batch_128/mixed64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 696.359658609028,
+      "result": null
+    },
+    "fixed/batch_64/baseline/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 171.60878782405052,
+      "result": null
+    },
+    "fixed/batch_64/baseline/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 678.4176852710079,
+      "result": null
+    },
+    "fixed/batch_64/pruned64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 153.0946140740998,
+      "result": null
+    },
+    "fixed/batch_64/pruned64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 657.5832602489972,
+      "result": null
+    },
+    "fixed/batch_64/mixed64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 158.3695340009872,
+      "result": null
+    },
+    "fixed/batch_64/mixed64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 699.5598632369656,
+      "result": null
+    },
+    "fixed/batch_128/baseline/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 135.83078581397422,
+      "result": null
+    },
+    "fixed/batch_128/baseline/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 673.6372075160034,
+      "result": null
+    },
+    "fixed/batch_128/pruned64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 105.62760616606101,
+      "result": null
+    },
+    "fixed/batch_128/pruned64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 666.0793749380391,
+      "result": null
+    },
+    "fixed/batch_128/mixed64/test": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 106.35041663399898,
+      "result": null
+    },
+    "fixed/batch_128/mixed64/benchmark": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 692.2213386689546,
+      "result": null
+    },
+    "report": {
+      "status": "complete",
+      "attempt": 1,
+      "elapsed_seconds": 7.782763235038146,
+      "result": null
+    }
+  },
+  "invocations": [
+    {
+      "action": "all",
+      "max_hours": null,
+      "started_unix": 1792108869.3015542,
+      "elapsed_seconds": 40781.49668117403,
+      "status": "complete"
+    }
+  ],
+  "status": "complete"
+}
